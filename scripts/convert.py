@@ -82,7 +82,7 @@ def main():
 
     os.makedirs("output", exist_ok=True)
 
-    with open("output/offsets_single.json", "w") as f:
+    with open("output/offsets.json", "w") as f:
         json.dump(final, f, indent=4)
 
     print("Offsets updated successfully.")
