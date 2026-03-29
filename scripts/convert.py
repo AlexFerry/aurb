@@ -18,11 +18,20 @@ OFFSET_REGEX = re.compile(
 
 NAMESPACE_REGEX = re.compile(r"namespace\s+([a-zA-Z0-9_]+)")
 
+VERSION_REGEX = re.compile(
+    r'ClientVersion\s*=\s*"([^"]+)"'
+)
+
 
 def parse_hpp(text):
 
     result = {}
     namespace_stack = []
+
+    # capturar versão
+    version_match = VERSION_REGEX.search(text)
+    if version_match:
+        result["ClientVersion"] = version_match.group(1)
 
     for line in text.splitlines():
 
@@ -40,20 +49,20 @@ def parse_hpp(text):
                 namespace_stack.pop()
             continue
 
-        # detectar offset
+        # detectar offsets
         match = OFFSET_REGEX.search(line)
         if match:
 
             name = match.group(1)
             value = match.group(2)
 
-            # limpar namespaces indesejados
+            # remover apenas namespace raiz
             clean_stack = [
                 ns for ns in namespace_stack
-                if ns not in ("cs2_dumper", "offsets")
+                if ns != "Offsets"
             ]
 
-            key = "_".join(clean_stack) if clean_stack else "global"
+            key = clean_stack[-1] if clean_stack else "global"
 
             if key not in result:
                 result[key] = {}
@@ -76,7 +85,7 @@ def main():
     with open("output/offsets_single.json", "w") as f:
         json.dump(final, f, indent=4)
 
-    print("Offsets single updated.")
+    print("Offsets updated successfully.")
 
 
 if __name__ == "__main__":
