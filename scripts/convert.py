@@ -13,7 +13,7 @@ def download(url):
 
 
 OFFSET_REGEX = re.compile(
-    r"constexpr\s+[a-zA-Z0-9_:<>]+\s+([a-zA-Z0-9_]+)\s*=\s*(0x[0-9A-Fa-f]+)"
+    r"constexpr\s+.*?\s+(\w+)\s*=\s*(0x[0-9A-Fa-f]+)"
 )
 
 NAMESPACE_REGEX = re.compile(r"namespace\s+([a-zA-Z0-9_]+)")
@@ -44,7 +44,7 @@ def parse_hpp(text):
             continue
 
         # fechar namespace
-        if line.startswith("}"):
+        if line.startswith("}") or line.startswith("};"):
             if namespace_stack:
                 namespace_stack.pop()
             continue
