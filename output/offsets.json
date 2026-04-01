@@ -157,7 +157,7 @@
         "Text": "0xdc0",
         "TextColor3": "0xe70",
         "Visible": "0x5b5",
-        "ZIndex": "0x19b"
+        "ZIndex": "0x5ac"
     },
     "Humanoid": {
         "AutoJumpEnabled": "0x1d8",
@@ -264,6 +264,19 @@
         "Snow": "0x1e",
         "WoodPlanks": "0x15"
     },
+    "MeshContentProvider": {
+        "AssetID": "0x10",
+        "Cache": "0xe8",
+        "LRUCache": "0x20",
+        "MeshData": "0x40",
+        "ToMeshData": "0x40"
+    },
+    "MeshData": {
+        "FaceEnd": "0x38",
+        "FaceStart": "0x30",
+        "VertexEnd": "0x8",
+        "VertexStart": "0x0"
+    },
     "MeshPart": {
         "MeshId": "0x2e8",
         "Texture": "0x318"
@@ -317,7 +330,7 @@
         "MaxZoomDistance": "0x320",
         "MinZoomDistance": "0x324",
         "ModelInstance": "0x398",
-        "Mouse": "0xdc8",
+        "Mouse": "0xf90",
         "NameDisplayDistance": "0x358",
         "Team": "0x2a0",
         "TeamColor": "0x364",
@@ -327,8 +340,8 @@
         "Pointer": "0x7936ef0"
     },
     "PlayerMouse": {
-        "Icon": "0x0",
-        "Workspace": "0x108"
+        "Icon": "0xe0",
+        "Workspace": "0x168"
     },
     "Primitive": {
         "AssemblyAngularVelocity": "0xfc",
@@ -394,7 +407,7 @@
         "SkyboxRt": "0x1d0",
         "SkyboxUp": "0x200",
         "StarCount": "0x260",
-        "SunAngularSize": "0x104",
+        "SunAngularSize": "0x254",
         "SunTextureId": "0x230"
     },
     "Sound": {
@@ -407,7 +420,7 @@
         "Volume": "0x144"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x1f8",
+        "AllowTeamChangeOnTouch": "0x45",
         "Enabled": "0x1f9",
         "ForcefieldDuration": "0x1f0",
         "Neutral": "0x1fa",
