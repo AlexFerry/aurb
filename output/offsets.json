@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-6776addb8fbc4d17",
+    "ClientVersion": "version-689e359b09ad43b0",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -7,13 +7,13 @@
     "AnimationTrack": {
         "Animation": "0xd0",
         "Animator": "0x118",
-        "IsPlaying": "0xa08",
+        "IsPlaying": "0xa18",
         "Looped": "0xf5",
         "Speed": "0xe4",
         "TimePosition": "0xe8"
     },
     "Animator": {
-        "ActiveAnimations": "0x848"
+        "ActiveAnimations": "0x850"
     },
     "Atmosphere": {
         "Color": "0xd0",
@@ -28,7 +28,7 @@
     },
     "BasePart": {
         "CastShadow": "0xf5",
-        "Color3": "0x194",
+        "Color3": "0x4a",
         "Locked": "0xf6",
         "Massless": "0xf7",
         "Primitive": "0x148",
@@ -102,13 +102,13 @@
     "DataModel": {
         "CreatorId": "0x188",
         "GameId": "0x190",
-        "GameLoaded": "0x600",
+        "GameLoaded": "0x5f8",
         "JobId": "0x138",
         "PlaceId": "0x198",
         "PlaceVersion": "0x1b4",
         "PrimitiveCount": "0x440",
         "ScriptContext": "0x3f0",
-        "ServerIP": "0x5e8",
+        "ServerIP": "0x5e0",
         "ToRenderView1": "0x1d0",
         "ToRenderView2": "0x8",
         "ToRenderView3": "0x28",
@@ -135,7 +135,7 @@
         "Responsiveness": "0x2d8"
     },
     "FakeDataModel": {
-        "Pointer": "0x795a0d8",
+        "Pointer": "0x834a988",
         "RealDataModel": "0x1c0"
     },
     "GuiBase2D": {
@@ -157,7 +157,7 @@
         "Text": "0xdc0",
         "TextColor3": "0xe70",
         "Visible": "0x5b5",
-        "ZIndex": "0x5ac"
+        "ZIndex": "0x19b"
     },
     "Humanoid": {
         "AutoJumpEnabled": "0x1d8",
@@ -205,7 +205,7 @@
         "AttributeToValue": "0x18",
         "ChildrenEnd": "0x8",
         "ChildrenStart": "0x78",
-        "ClassBase": "0xdd8",
+        "ClassBase": "0xde8",
         "ClassDescriptor": "0x18",
         "ClassName": "0x8",
         "Name": "0xb0",
@@ -301,7 +301,7 @@
         "InputObject": "0x100",
         "InputObject2": "0x110",
         "MousePosition": "0xec",
-        "SensitivityPointer": "0x79db650"
+        "SensitivityPointer": "0x83e9530"
     },
     "ParticleEmitter": {
         "Acceleration": "0x1f0",
@@ -337,7 +337,7 @@
         "UserId": "0x2c8"
     },
     "PlayerConfigurer": {
-        "Pointer": "0x7936ef0"
+        "Pointer": "0x83206a0"
     },
     "PlayerMouse": {
         "Icon": "0xe0",
@@ -347,7 +347,7 @@
         "AssemblyAngularVelocity": "0xfc",
         "AssemblyLinearVelocity": "0xf0",
         "Flags": "0x1ae",
-        "Material": "0x230",
+        "Material": "0x0",
         "Owner": "0x1f8",
         "Position": "0xe4",
         "Rotation": "0xc0",
@@ -378,7 +378,7 @@
     "RenderView": {
         "DeviceD3D11": "0x8",
         "LightingValid": "0x148",
-        "SkyValid": "0x2cd",
+        "SkyValid": "0x0",
         "VisualEngine": "0x10"
     },
     "RunService": {
@@ -391,7 +391,7 @@
         "Hash": "0x1b8"
     },
     "ScriptContext": {
-        "RequireBypass": "0x8fd"
+        "RequireBypass": "0x861"
     },
     "Seat": {
         "Occupant": "0x220"
@@ -420,7 +420,7 @@
         "Volume": "0x144"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x45",
+        "AllowTeamChangeOnTouch": "0x1f8",
         "Enabled": "0x1f9",
         "ForcefieldDuration": "0x1f0",
         "Neutral": "0x1fa",
@@ -454,7 +454,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x7a08710"
+        "Pointer": "0x8428188"
     },
     "Team": {
         "BrickColor": "0xd0"
@@ -497,7 +497,7 @@
     "VisualEngine": {
         "Dimensions": "0xa60",
         "FakeDataModel": "0xa40",
-        "Pointer": "0x7510a58",
+        "Pointer": "0x7ef81d8",
         "RenderView": "0xb40",
         "ViewMatrix": "0x130"
     },
@@ -516,7 +516,7 @@
     "Workspace": {
         "CurrentCamera": "0x488",
         "DistributedGameTime": "0x4a8",
-        "ReadOnlyGravity": "0x9a8",
+        "ReadOnlyGravity": "0x9b0",
         "World": "0x400"
     },
     "World": {
