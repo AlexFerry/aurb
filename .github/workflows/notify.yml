@@ -1,0 +1,63 @@
+name: Notify Discord on Update
+
+on:
+  push:
+    paths:
+      - 'aurb/output/output'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate message and send to Discord
+        run: |
+          # Data no formato DD/MM
+          DATE=$(date +'%d/%m')
+
+          # Lista de frases
+          MESSAGES=(
+            "[+] Otimização geral de desempenho interno."
+            "[+] Refatoração de módulos críticos do sistema."
+            "[+] Melhorias na estabilidade em execução prolongada."
+            "[+] Ajustes no gerenciamento de memória."
+            "[+] Aprimoramento dos métodos de segurança."
+            "[+] Redução de inconsistências em cenários específicos."
+            "[+] Melhorias internas no sistema de detecção."
+            "[+] Melhorias estruturais no código base."
+          )
+
+          # Embaralhar e pegar 3 diferentes
+          RANDOM_MSGS=$(printf "%s\n" "${MESSAGES[@]}" | shuf | head -n 3)
+
+          # Montar conteúdo final
+          CONTENT="👑 VIPER CS2 [UPDATED ${DATE}]
+
+[+] Compatibilidade com a nova versão do jogo.
+${RANDOM_MSGS}
+"
+
+          # Enviar webhook com botões
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d "{
+            \"content\": \"$CONTENT\",
+            \"components\": [{
+              \"type\": 1,
+              \"components\": [
+                {
+                  \"type\": 2,
+                  \"label\": \"⬇️ Download\",
+                  \"style\": 5,
+                  \"url\": \"https://SEU-LINK-DE-DOWNLOAD\"
+                },
+                {
+                  \"type\": 2,
+                  \"label\": \"💰 Comprar\",
+                  \"style\": 5,
+                  \"url\": \"https://SEU-LINK-DE-COMPRA\"
+                }
+              ]
+            }]
+          }" \
+          ${{ secrets.DISCORD_WEBHOOK }}
