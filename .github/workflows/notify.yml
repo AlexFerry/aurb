@@ -30,7 +30,7 @@ jobs:
 
           RANDOM_MSGS=$(printf "%s\n" "${MESSAGES[@]}" | shuf | head -n 3)
 
-          CONTENT=$(printf "```⏹️ Legit Roblox [UPDATED "$DATE"]\n\n[+] Compatibilidade com a nova versão do jogo.\n%s\n" "$RANDOM_MSGS"```)
+          CONTENT=$(printf "```\n👑 VIPER CS2 [UPDATED %s]\n\n[+] Compatibilidade com a nova versão do jogo.\n%s\n```" "$DATE" "$RANDOM_MSGS")
 
           JSON=$(jq -n \
             --arg content "$CONTENT" \
