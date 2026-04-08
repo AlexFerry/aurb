@@ -30,7 +30,11 @@ jobs:
 
           RANDOM_MSGS=$(printf "%s\n" "${MESSAGES[@]}" | shuf | head -n 3)
 
-          CONTENT=$(printf "```\n👑 VIPER CS2 [UPDATED %s]\n\n[+] Compatibilidade com a nova versão do jogo.\n%s\n```" "$DATE" "$RANDOM_MSGS")
+          CONTENT=$(printf "```\n")
+          CONTENT+=$(printf "👑 VIPER CS2 [UPDATED %s]\n\n" "$DATE")
+          CONTENT+=$(printf "[+] Compatibilidade com a nova versão do jogo.\n")
+          CONTENT+=$(printf "%s\n" "$RANDOM_MSGS")
+          CONTENT+=$(printf "```")
 
           JSON=$(jq -n \
             --arg content "$CONTENT" \
