@@ -12,10 +12,11 @@ jobs:
     steps:
       - name: Generate message and send to Discord
         run: |
-          # Data no formato DD/MM
+          sudo apt-get update -y
+          sudo apt-get install -y jq
+
           DATE=$(date +'%d/%m')
 
-          # Lista de frases
           MESSAGES=(
             "[+] Otimização geral de desempenho interno."
             "[+] Refatoração de módulos críticos do sistema."
@@ -27,37 +28,38 @@ jobs:
             "[+] Melhorias estruturais no código base."
           )
 
-          # Embaralhar e pegar 3 diferentes
           RANDOM_MSGS=$(printf "%s\n" "${MESSAGES[@]}" | shuf | head -n 3)
 
-          # Montar conteúdo final
-          CONTENT="👑 VIPER CS2 [UPDATED ${DATE}]
+          CONTENT=$(printf "👑 VIPER CS2 [UPDATED %s]\n\n[+] Compatibilidade com a nova versão do jogo.\n%s\n" "$DATE" "$RANDOM_MSGS")
 
-[+] Compatibilidade com a nova versão do jogo.
-${RANDOM_MSGS}
-"
-
-          # Enviar webhook com botões
-          curl -H "Content-Type: application/json" \
-          -X POST \
-          -d "{
-            \"content\": \"$CONTENT\",
-            \"components\": [{
-              \"type\": 1,
-              \"components\": [
+          JSON=$(jq -n \
+            --arg content "$CONTENT" \
+            --arg download "https://discord.com/channels/1369186271196483686/1371936693678113001" \
+            --arg buy "https://discord.com/channels/1369186271196483686/1482920072661045288" \
+            '{
+              content: $content,
+              components: [
                 {
-                  \"type\": 2,
-                  \"label\": \"⬇️ Download\",
-                  \"style\": 5,
-                  \"url\": \"https://SEU-LINK-DE-DOWNLOAD\"
-                },
-                {
-                  \"type\": 2,
-                  \"label\": \"💰 Comprar\",
-                  \"style\": 5,
-                  \"url\": \"https://SEU-LINK-DE-COMPRA\"
+                  type: 1,
+                  components: [
+                    {
+                      type: 2,
+                      label: "⬇️ Download",
+                      style: 5,
+                      url: $download
+                    },
+                    {
+                      type: 2,
+                      label: "💰 Comprar",
+                      style: 5,
+                      url: $buy
+                    }
+                  ]
                 }
               ]
-            }]
-          }" \
-          ${{ secrets.DISCORD_WEBHOOK }}
+            }')
+
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "$JSON" \
+               ${{ secrets.DISCORD_WEBHOOK }}
