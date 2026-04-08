@@ -18,6 +18,7 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y jq
 
+          export TZ='America/Sao_Paulo'
           DATE=$(date +'%d/%m')
 
           MESSAGES=(
@@ -35,7 +36,7 @@ jobs:
 
           CONTENT=$(cat <<EOF
           \`\`\`
-          👑 VIPER CS2 [UPDATED ${DATE}]
+          ⏹️ Legit Roblox [UPDATED ${DATE}]
           
           [+] Compatibilidade com a nova versão do jogo.
           ${RANDOM_MSGS}
