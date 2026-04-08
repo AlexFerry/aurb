@@ -32,7 +32,9 @@ jobs:
             "[+] Melhorias estruturais no código base."
           )
 
-          RANDOM_MSGS=$(printf "%s\n" "${MESSAGES[@]}" | shuf | head -n 3)
+          # Quantidade aleatória de mensagens (0 a 3)
+          COUNT=$((RANDOM % 4))
+          RANDOM_MSGS=$(printf "%s\n" "${MESSAGES[@]}" | shuf | head -n $COUNT)
 
           CONTENT=$(cat <<EOF
           \`\`\`
