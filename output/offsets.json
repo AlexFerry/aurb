@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-689e359b09ad43b0",
+    "ClientVersion": "version-26c90be22e0d4758",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -28,7 +28,7 @@
     },
     "BasePart": {
         "CastShadow": "0xf5",
-        "Color3": "0x194",
+        "Color3": "0x49",
         "Locked": "0xf6",
         "Massless": "0xf7",
         "Primitive": "0x148",
@@ -135,7 +135,7 @@
         "Responsiveness": "0x2d8"
     },
     "FakeDataModel": {
-        "Pointer": "0x834a988",
+        "Pointer": "0x7a1d388",
         "RealDataModel": "0x1c0"
     },
     "GuiBase2D": {
@@ -174,9 +174,9 @@
         "HealthDisplayType": "0x19c",
         "HipHeight": "0x1a0",
         "HumanoidRootPart": "0x478",
-        "HumanoidState": "0x890",
+        "HumanoidState": "0x898",
         "HumanoidStateID": "0x20",
-        "IsWalking": "0x90f",
+        "IsWalking": "0x917",
         "Jump": "0x1dd",
         "JumpHeight": "0x1ac",
         "JumpPower": "0x1b0",
@@ -301,7 +301,7 @@
         "InputObject": "0x100",
         "InputObject2": "0x110",
         "MousePosition": "0xec",
-        "SensitivityPointer": "0x83e9530"
+        "SensitivityPointer": "0x7abc440"
     },
     "ParticleEmitter": {
         "Acceleration": "0x1f0",
@@ -330,14 +330,14 @@
         "MaxZoomDistance": "0x320",
         "MinZoomDistance": "0x324",
         "ModelInstance": "0x398",
-        "Mouse": "0xf90",
+        "Mouse": "0xfc8",
         "NameDisplayDistance": "0x358",
         "Team": "0x2a0",
         "TeamColor": "0x364",
         "UserId": "0x2c8"
     },
     "PlayerConfigurer": {
-        "Pointer": "0x83206a0"
+        "Pointer": "0x79f30d0"
     },
     "PlayerMouse": {
         "Icon": "0xe0",
@@ -382,8 +382,8 @@
         "VisualEngine": "0x10"
     },
     "RunService": {
-        "HeartbeatFPS": "0xf4",
-        "HeartbeatTask": "0x3b8"
+        "HeartbeatFPS": "0xfc",
+        "HeartbeatTask": "0x160"
     },
     "Script": {
         "ByteCode": "0x1a8",
@@ -413,7 +413,7 @@
     "Sound": {
         "Looped": "0x152",
         "PlaybackSpeed": "0x130",
-        "Playing": "0x16d",
+        "Playing": "0x0",
         "RollOffMaxDistance": "0x134",
         "RollOffMinDistance": "0x138",
         "SoundGroup": "0x100",
@@ -421,7 +421,7 @@
         "Volume": "0x144"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x45",
+        "AllowTeamChangeOnTouch": "0x1f8",
         "Enabled": "0x1f9",
         "ForcefieldDuration": "0x1f0",
         "Neutral": "0x1fa",
@@ -455,7 +455,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x8428188"
+        "Pointer": "0x7af5090"
     },
     "Team": {
         "BrickColor": "0xd0"
@@ -498,7 +498,7 @@
     "VisualEngine": {
         "Dimensions": "0xa60",
         "FakeDataModel": "0xa40",
-        "Pointer": "0x7ef81d8",
+        "Pointer": "0x75cc058",
         "RenderView": "0xb40",
         "ViewMatrix": "0x130"
     },
