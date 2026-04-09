@@ -28,7 +28,7 @@
     },
     "BasePart": {
         "CastShadow": "0xf5",
-        "Color3": "0x4a",
+        "Color3": "0x194",
         "Locked": "0xf6",
         "Massless": "0xf7",
         "Primitive": "0x148",
@@ -295,7 +295,7 @@
         "ByteCode": "0x150",
         "GUID": "0xe8",
         "Hash": "0x160",
-        "IsCoreScript": "0x180"
+        "IsCoreScript": "0x0"
     },
     "MouseService": {
         "InputObject": "0x100",
@@ -378,12 +378,12 @@
     "RenderView": {
         "DeviceD3D11": "0x8",
         "LightingValid": "0x148",
-        "SkyValid": "0x0",
+        "SkyValid": "0x28d",
         "VisualEngine": "0x10"
     },
     "RunService": {
-        "HeartbeatFPS": "0xb8",
-        "HeartbeatTask": "0xf0"
+        "HeartbeatFPS": "0xf4",
+        "HeartbeatTask": "0x3b8"
     },
     "Script": {
         "ByteCode": "0x1a8",
@@ -391,7 +391,7 @@
         "Hash": "0x1b8"
     },
     "ScriptContext": {
-        "RequireBypass": "0x861"
+        "RequireBypass": "0x0"
     },
     "Seat": {
         "Occupant": "0x220"
@@ -413,6 +413,7 @@
     "Sound": {
         "Looped": "0x152",
         "PlaybackSpeed": "0x130",
+        "Playing": "0x16d",
         "RollOffMaxDistance": "0x134",
         "RollOffMinDistance": "0x138",
         "SoundGroup": "0x100",
@@ -420,7 +421,7 @@
         "Volume": "0x144"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x1f8",
+        "AllowTeamChangeOnTouch": "0x45",
         "Enabled": "0x1f9",
         "ForcefieldDuration": "0x1f0",
         "Neutral": "0x1fa",
