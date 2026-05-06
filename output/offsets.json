@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-acc4b74f79e743b9",
+    "ClientVersion": "version-bf6344c9c23446bf",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -100,16 +100,16 @@
         "TonemapperPreset": "0xd0"
     },
     "DataModel": {
-        "CreatorId": "0x188",
-        "GameId": "0x190",
-        "GameLoaded": "0x5f8",
+        "CreatorId": "0x190",
+        "GameId": "0x198",
+        "GameLoaded": "0x620",
         "JobId": "0x138",
-        "PlaceId": "0x198",
-        "PlaceVersion": "0x1b4",
-        "PrimitiveCount": "0x440",
-        "ScriptContext": "0x3f0",
-        "ServerIP": "0x5e0",
-        "ToRenderView1": "0x1d0",
+        "PlaceId": "0x1a0",
+        "PlaceVersion": "0x1bc",
+        "PrimitiveCount": "0x468",
+        "ScriptContext": "0x400",
+        "ServerIP": "0x608",
+        "ToRenderView1": "0x1d8",
         "ToRenderView2": "0x8",
         "ToRenderView3": "0x28",
         "Workspace": "0x178"
@@ -135,7 +135,7 @@
         "Responsiveness": "0x2d8"
     },
     "FakeDataModel": {
-        "Pointer": "0x7c1a148",
+        "Pointer": "0x749cbd8",
         "RealDataModel": "0x1d0"
     },
     "GuiBase2D": {
@@ -205,7 +205,7 @@
         "AttributeToValue": "0x18",
         "ChildrenEnd": "0x8",
         "ChildrenStart": "0x78",
-        "ClassBase": "0xe48",
+        "ClassBase": "0x4728",
         "ClassDescriptor": "0x18",
         "ClassName": "0x8",
         "Name": "0xb0",
@@ -213,28 +213,28 @@
         "This": "0x8"
     },
     "Lighting": {
-        "Ambient": "0xd8",
-        "Brightness": "0x120",
-        "ClockTime": "0x1b8",
-        "ColorShift_Bottom": "0xf0",
-        "ColorShift_Top": "0xe4",
-        "EnvironmentDiffuseScale": "0x124",
-        "EnvironmentSpecularScale": "0x128",
-        "ExposureCompensation": "0x12c",
-        "FogColor": "0xfc",
-        "FogEnd": "0x134",
-        "FogStart": "0x138",
-        "GeographicLatitude": "0x190",
-        "GlobalShadows": "0x148",
-        "GradientBottom": "0x194",
-        "GradientTop": "0x150",
-        "LightColor": "0x15c",
-        "LightDirection": "0x168",
-        "MoonPosition": "0x184",
-        "OutdoorAmbient": "0x108",
-        "Sky": "0x1d8",
-        "Source": "0x174",
-        "SunPosition": "0x178"
+        "Ambient": "0xe0",
+        "Brightness": "0x128",
+        "ClockTime": "0x1c0",
+        "ColorShift_Bottom": "0xf8",
+        "ColorShift_Top": "0xec",
+        "EnvironmentDiffuseScale": "0x12c",
+        "EnvironmentSpecularScale": "0x130",
+        "ExposureCompensation": "0x134",
+        "FogColor": "0x104",
+        "FogEnd": "0x13c",
+        "FogStart": "0x140",
+        "GeographicLatitude": "0x198",
+        "GlobalShadows": "0x150",
+        "GradientBottom": "0x19c",
+        "GradientTop": "0x158",
+        "LightColor": "0x164",
+        "LightDirection": "0x170",
+        "MoonPosition": "0x18c",
+        "OutdoorAmbient": "0x110",
+        "Sky": "0x1e0",
+        "Source": "0x17c",
+        "SunPosition": "0x180"
     },
     "LocalScript": {
         "ByteCode": "0x0",
@@ -266,7 +266,7 @@
     },
     "MeshContentProvider": {
         "AssetID": "0x10",
-        "Cache": "0xe8",
+        "Cache": "0xf0",
         "LRUCache": "0x20",
         "MeshData": "0x40",
         "ToMeshData": "0x40"
@@ -298,10 +298,10 @@
         "IsCoreScript": "0x0"
     },
     "MouseService": {
-        "InputObject": "0x100",
-        "InputObject2": "0x110",
+        "InputObject": "0x108",
+        "InputObject2": "0x118",
         "MousePosition": "0xec",
-        "SensitivityPointer": "0x7cb9ad0"
+        "SensitivityPointer": "0x307"
     },
     "ParticleEmitter": {
         "Acceleration": "0x1f0",
@@ -325,7 +325,7 @@
         "CameraMode": "0x328",
         "DisplayName": "0x130",
         "HealthDisplayDistance": "0x348",
-        "LocalPlayer": "0x130",
+        "LocalPlayer": "0x138",
         "LocaleId": "0x110",
         "MaxZoomDistance": "0x320",
         "MinZoomDistance": "0x324",
@@ -337,7 +337,7 @@
         "UserId": "0x2c8"
     },
     "PlayerConfigurer": {
-        "Pointer": "0x7bee8e8"
+        "Pointer": "0x74a1ca0"
     },
     "PlayerMouse": {
         "Icon": "0xe0",
@@ -382,8 +382,8 @@
         "VisualEngine": "0x10"
     },
     "RunService": {
-        "HeartbeatFPS": "0xb4",
-        "HeartbeatTask": "0x138"
+        "HeartbeatFPS": "0xd4",
+        "HeartbeatTask": "0xf20"
     },
     "Script": {
         "ByteCode": "0x0",
@@ -421,7 +421,7 @@
         "Volume": "0x144"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x45",
+        "AllowTeamChangeOnTouch": "0x1f8",
         "Enabled": "0x1f9",
         "ForcefieldDuration": "0x1f0",
         "Neutral": "0x1fa",
@@ -455,7 +455,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x7cf5400"
+        "Pointer": "0x7ba3198"
     },
     "Team": {
         "BrickColor": "0xd0"
@@ -486,7 +486,7 @@
         "AssetId": "0x2f0"
     },
     "UserInputService": {
-        "WindowInputState": "0x290"
+        "WindowInputState": "0x298"
     },
     "VehicleSeat": {
         "MaxSpeed": "0x238",
@@ -496,11 +496,11 @@
         "TurnSpeed": "0x250"
     },
     "VisualEngine": {
-        "Dimensions": "0xa90",
-        "FakeDataModel": "0xa70",
-        "Pointer": "0x77c6670",
-        "RenderView": "0xb70",
-        "ViewMatrix": "0x130"
+        "Dimensions": "0xaa0",
+        "FakeDataModel": "0xa80",
+        "Pointer": "0x7b79a08",
+        "RenderView": "0xb80",
+        "ViewMatrix": "0x140"
     },
     "Weld": {
         "Part0": "0x130",
@@ -517,7 +517,7 @@
     "Workspace": {
         "CurrentCamera": "0x490",
         "DistributedGameTime": "0x4b0",
-        "ReadOnlyGravity": "0x9b8",
+        "ReadOnlyGravity": "0x9c0",
         "World": "0x408"
     },
     "World": {
@@ -525,6 +525,6 @@
         "FallenPartsDestroyHeight": "0x208",
         "Gravity": "0x210",
         "Primitives": "0x280",
-        "worldStepsPerSec": "0x6b8"
+        "worldStepsPerSec": "0x678"
     }
 }
