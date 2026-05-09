@@ -237,7 +237,7 @@
         "SunPosition": "0x180"
     },
     "LocalScript": {
-        "ByteCode": "0x0",
+        "ByteCode": "0x1a8",
         "GUID": "0xe8",
         "Hash": "0x1b8"
     },
@@ -292,7 +292,7 @@
         "Scale": "0x164"
     },
     "ModuleScript": {
-        "ByteCode": "0x0",
+        "ByteCode": "0x150",
         "GUID": "0xe8",
         "Hash": "0x160",
         "IsCoreScript": "0x0"
@@ -382,11 +382,11 @@
         "VisualEngine": "0x10"
     },
     "RunService": {
-        "HeartbeatFPS": "0xd4",
-        "HeartbeatTask": "0xf20"
+        "HeartbeatFPS": "0xb8",
+        "HeartbeatTask": "0xf8"
     },
     "Script": {
-        "ByteCode": "0x0",
+        "ByteCode": "0x1a8",
         "GUID": "0xe8",
         "Hash": "0x1b8"
     },
@@ -421,7 +421,7 @@
         "Volume": "0x144"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x1f8",
+        "AllowTeamChangeOnTouch": "0x44",
         "Enabled": "0x1f9",
         "ForcefieldDuration": "0x1f0",
         "Neutral": "0x1fa",
@@ -475,7 +475,7 @@
     },
     "Tool": {
         "CanBeDropped": "0x4c8",
-        "Enabled": "0x4c9",
+        "Enabled": "0x2b4",
         "Grip": "0x4bc",
         "ManualActivationOnly": "0x4ca",
         "RequiresHandle": "0x4cb",
