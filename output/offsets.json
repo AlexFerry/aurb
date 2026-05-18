@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-ec412128eba3476e",
+    "ClientVersion": "version-9377ee10133e4be3",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -7,7 +7,7 @@
     "AnimationTrack": {
         "Animation": "0xd0",
         "Animator": "0x118",
-        "IsPlaying": "0x405",
+        "IsPlaying": "0xa18",
         "Looped": "0xf5",
         "Speed": "0xe4",
         "TimePosition": "0xe8"
@@ -135,7 +135,7 @@
         "Responsiveness": "0x2d8"
     },
     "FakeDataModel": {
-        "Pointer": "0x74f8758",
+        "Pointer": "0x74f6758",
         "RealDataModel": "0x1d0"
     },
     "GuiBase2D": {
@@ -157,7 +157,7 @@
         "Text": "0xda8",
         "TextColor3": "0xe58",
         "Visible": "0x5b5",
-        "ZIndex": "0x5ac"
+        "ZIndex": "0x19b"
     },
     "Humanoid": {
         "AutoJumpEnabled": "0x1e0",
@@ -264,19 +264,6 @@
         "Snow": "0x1e",
         "WoodPlanks": "0x15"
     },
-    "MeshContentProvider": {
-        "AssetID": "0x10",
-        "Cache": "0xf0",
-        "LRUCache": "0x20",
-        "MeshData": "0x40",
-        "ToMeshData": "0x40"
-    },
-    "MeshData": {
-        "FaceEnd": "0x38",
-        "FaceStart": "0x30",
-        "VertexEnd": "0x8",
-        "VertexStart": "0x0"
-    },
     "MeshPart": {
         "MeshId": "0x2f8",
         "Texture": "0x328"
@@ -337,7 +324,7 @@
         "UserId": "0x2d8"
     },
     "PlayerConfigurer": {
-        "Pointer": "0x307"
+        "Pointer": "0x0"
     },
     "PlayerMouse": {
         "Icon": "0xe0",
@@ -377,13 +364,13 @@
     },
     "RenderView": {
         "DeviceD3D11": "0x8",
-        "LightingValid": "0x148",
-        "SkyValid": "0x28d",
+        "LightingValid": "0x0",
+        "SkyValid": "0x0",
         "VisualEngine": "0x10"
     },
     "RunService": {
-        "HeartbeatFPS": "0xf4",
-        "HeartbeatTask": "0x3b8"
+        "HeartbeatFPS": "0xb8",
+        "HeartbeatTask": "0xf8"
     },
     "Script": {
         "ByteCode": "0x0",
@@ -413,7 +400,6 @@
     "Sound": {
         "Looped": "0x155",
         "PlaybackSpeed": "0x134",
-        "Playing": "0x158",
         "RollOffMaxDistance": "0x138",
         "RollOffMinDistance": "0x13c",
         "SoundGroup": "0x100",
@@ -455,7 +441,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x7c00988"
+        "Pointer": "0x7bfe988"
     },
     "Team": {
         "BrickColor": "0xd0"
@@ -498,7 +484,7 @@
     "VisualEngine": {
         "Dimensions": "0xaa0",
         "FakeDataModel": "0xa80",
-        "Pointer": "0x7bd71f8",
+        "Pointer": "0x7bd51f8",
         "RenderView": "0xb80",
         "ViewMatrix": "0x140"
     },
