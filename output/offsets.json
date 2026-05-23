@@ -1,13 +1,13 @@
 {
-    "ClientVersion": "version-4b6315bf1f0a4dbb",
+    "ClientVersion": "version-2b1721d47abf49aa",
     "AirProperties": {
-        "AirDensity": "0x0",
-        "GlobalWind": "0x0"
+        "AirDensity": "0x18",
+        "GlobalWind": "0x3c"
     },
     "AnimationTrack": {
         "Animation": "0xd0",
         "Animator": "0x118",
-        "IsPlaying": "0xa10",
+        "IsPlaying": "0xa18",
         "Looped": "0xf5",
         "Speed": "0xe4",
         "TimePosition": "0xe8"
@@ -135,7 +135,7 @@
         "Responsiveness": "0x2d8"
     },
     "FakeDataModel": {
-        "Pointer": "0x7868a68",
+        "Pointer": "0x74f6758",
         "RealDataModel": "0x1d0"
     },
     "GuiBase2D": {
@@ -173,10 +173,10 @@
         "HealthDisplayDistance": "0x198",
         "HealthDisplayType": "0x19c",
         "HipHeight": "0x1a0",
-        "HumanoidRootPart": "0x480",
-        "HumanoidState": "0x8a0",
+        "HumanoidRootPart": "0x488",
+        "HumanoidState": "0x8a8",
         "HumanoidStateID": "0x20",
-        "IsWalking": "0x91f",
+        "IsWalking": "0x927",
         "Jump": "0x1e6",
         "JumpHeight": "0x1ac",
         "JumpPower": "0x1b0",
@@ -194,7 +194,7 @@
         "Sit": "0x1e9",
         "TargetPoint": "0x164",
         "UseJumpPower": "0x1ec",
-        "WalkTimer": "0x410",
+        "WalkTimer": "0x418",
         "Walkspeed": "0x1dc",
         "WalkspeedCheck": "0x3c4"
     },
@@ -407,7 +407,7 @@
         "Volume": "0x148"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x1f8",
+        "AllowTeamChangeOnTouch": "0x45",
         "Enabled": "0x1f9",
         "ForcefieldDuration": "0x1f0",
         "Neutral": "0x1fa",
@@ -441,7 +441,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x7f7c478"
+        "Pointer": "0x7bfe988"
     },
     "Team": {
         "BrickColor": "0xd0"
@@ -484,8 +484,8 @@
     "VisualEngine": {
         "Dimensions": "0xaa0",
         "FakeDataModel": "0xa80",
-        "Pointer": "0x7f52cf0",
-        "RenderView": "0xb90",
+        "Pointer": "0x7bd51f8",
+        "RenderView": "0xb80",
         "ViewMatrix": "0x140"
     },
     "Weld": {
@@ -504,13 +504,13 @@
         "CurrentCamera": "0x4b0",
         "DistributedGameTime": "0x4d0",
         "ReadOnlyGravity": "0x9e0",
-        "World": "0x378"
+        "World": "0x408"
     },
     "World": {
-        "AirProperties": "0x0",
-        "FallenPartsDestroyHeight": "0x0",
-        "Gravity": "0x1a8",
-        "Primitives": "0x0",
-        "worldStepsPerSec": "0x0"
+        "AirProperties": "0x218",
+        "FallenPartsDestroyHeight": "0x208",
+        "Gravity": "0x210",
+        "Primitives": "0x280",
+        "worldStepsPerSec": "0x678"
     }
 }
