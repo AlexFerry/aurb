@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-2b1721d47abf49aa",
+    "ClientVersion": "version-460909c4fe904aae",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -7,7 +7,7 @@
     "AnimationTrack": {
         "Animation": "0xd0",
         "Animator": "0x118",
-        "IsPlaying": "0xa18",
+        "IsPlaying": "0xa10",
         "Looped": "0xf5",
         "Speed": "0xe4",
         "TimePosition": "0xe8"
@@ -135,7 +135,7 @@
         "Responsiveness": "0x2d8"
     },
     "FakeDataModel": {
-        "Pointer": "0x74f6758",
+        "Pointer": "0x78cf1d8",
         "RealDataModel": "0x1d0"
     },
     "GuiBase2D": {
@@ -144,20 +144,20 @@
         "AbsoluteSize": "0x118"
     },
     "GuiObject": {
-        "BackgroundColor3": "0x548",
-        "BackgroundTransparency": "0x554",
-        "BorderColor3": "0x554",
-        "Image": "0x990",
-        "LayoutOrder": "0x588",
-        "Position": "0x518",
-        "RichText": "0xb60",
+        "BackgroundColor3": "0x550",
+        "BackgroundTransparency": "0x55c",
+        "BorderColor3": "0x55c",
+        "Image": "0x998",
+        "LayoutOrder": "0x590",
+        "Position": "0x520",
+        "RichText": "0xb68",
         "Rotation": "0x188",
-        "ScreenGui_Enabled": "0x4cc",
-        "Size": "0x538",
-        "Text": "0xda8",
-        "TextColor3": "0xe58",
-        "Visible": "0x5b5",
-        "ZIndex": "0x5ac"
+        "ScreenGui_Enabled": "0x4d4",
+        "Size": "0x540",
+        "Text": "0xdb0",
+        "TextColor3": "0xe60",
+        "Visible": "0x5bd",
+        "ZIndex": "0x5b4"
     },
     "Humanoid": {
         "AutoJumpEnabled": "0x1e0",
@@ -173,10 +173,10 @@
         "HealthDisplayDistance": "0x198",
         "HealthDisplayType": "0x19c",
         "HipHeight": "0x1a0",
-        "HumanoidRootPart": "0x488",
-        "HumanoidState": "0x8a8",
+        "HumanoidRootPart": "0x480",
+        "HumanoidState": "0x8a0",
         "HumanoidStateID": "0x20",
-        "IsWalking": "0x927",
+        "IsWalking": "0x91f",
         "Jump": "0x1e6",
         "JumpHeight": "0x1ac",
         "JumpPower": "0x1b0",
@@ -194,7 +194,7 @@
         "Sit": "0x1e9",
         "TargetPoint": "0x164",
         "UseJumpPower": "0x1ec",
-        "WalkTimer": "0x418",
+        "WalkTimer": "0x410",
         "Walkspeed": "0x1dc",
         "WalkspeedCheck": "0x3c4"
     },
@@ -205,7 +205,7 @@
         "AttributeToValue": "0x18",
         "ChildrenEnd": "0x8",
         "ChildrenStart": "0x78",
-        "ClassBase": "0x47d8",
+        "ClassBase": "0x4920",
         "ClassDescriptor": "0x18",
         "ClassName": "0x8",
         "Name": "0xb0",
@@ -265,8 +265,8 @@
         "WoodPlanks": "0x15"
     },
     "MeshPart": {
-        "MeshId": "0x2f8",
-        "Texture": "0x328"
+        "MeshId": "0x300",
+        "Texture": "0x330"
     },
     "Misc": {
         "Adornee": "0x108",
@@ -441,7 +441,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x7bfe988"
+        "Pointer": "0x7e5f678"
     },
     "Team": {
         "BrickColor": "0xd0"
@@ -461,7 +461,7 @@
     },
     "Tool": {
         "CanBeDropped": "0x4c8",
-        "Enabled": "0x4c9",
+        "Enabled": "0x1b5",
         "Grip": "0x4bc",
         "ManualActivationOnly": "0x4ca",
         "RequiresHandle": "0x4cb",
@@ -469,7 +469,7 @@
         "Tooltip": "0x478"
     },
     "UnionOperation": {
-        "AssetId": "0x2f0"
+        "AssetId": "0x2f8"
     },
     "UserInputService": {
         "WindowInputState": "0x2d8"
@@ -482,11 +482,11 @@
         "TurnSpeed": "0x250"
     },
     "VisualEngine": {
-        "Dimensions": "0xaa0",
-        "FakeDataModel": "0xa80",
-        "Pointer": "0x7bd51f8",
-        "RenderView": "0xb80",
-        "ViewMatrix": "0x140"
+        "Dimensions": "0xab0",
+        "FakeDataModel": "0xa90",
+        "Pointer": "0x7fed100",
+        "RenderView": "0xbb0",
+        "ViewMatrix": "0x150"
     },
     "Weld": {
         "Part0": "0x130",
@@ -503,7 +503,7 @@
     "Workspace": {
         "CurrentCamera": "0x4b0",
         "DistributedGameTime": "0x4d0",
-        "ReadOnlyGravity": "0x9e0",
+        "ReadOnlyGravity": "0x9f0",
         "World": "0x408"
     },
     "World": {
