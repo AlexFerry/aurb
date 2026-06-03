@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-a182ba0d4c6f483b",
+    "ClientVersion": "version-460909c4fe904aae",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -28,7 +28,7 @@
     },
     "BasePart": {
         "CastShadow": "0xf5",
-        "Color3": "0x72",
+        "Color3": "0x194",
         "Locked": "0xf6",
         "Massless": "0xf7",
         "Primitive": "0x148",
@@ -135,7 +135,7 @@
         "Responsiveness": "0x2d8"
     },
     "FakeDataModel": {
-        "Pointer": "0x78ff228",
+        "Pointer": "0x78cf1d8",
         "RealDataModel": "0x1d0"
     },
     "GuiBase2D": {
@@ -144,20 +144,20 @@
         "AbsoluteSize": "0x118"
     },
     "GuiObject": {
-        "BackgroundColor3": "0x540",
-        "BackgroundTransparency": "0x54c",
-        "BorderColor3": "0x54c",
-        "Image": "0x988",
-        "LayoutOrder": "0x580",
-        "Position": "0x510",
-        "RichText": "0xb58",
+        "BackgroundColor3": "0x550",
+        "BackgroundTransparency": "0x55c",
+        "BorderColor3": "0x55c",
+        "Image": "0x998",
+        "LayoutOrder": "0x590",
+        "Position": "0x520",
+        "RichText": "0xb68",
         "Rotation": "0x188",
-        "ScreenGui_Enabled": "0x4c4",
-        "Size": "0x530",
-        "Text": "0xda0",
-        "TextColor3": "0xe50",
-        "Visible": "0x5ad",
-        "ZIndex": "0x19b"
+        "ScreenGui_Enabled": "0x4d4",
+        "Size": "0x540",
+        "Text": "0xdb0",
+        "TextColor3": "0xe60",
+        "Visible": "0x5bd",
+        "ZIndex": "0x5b4"
     },
     "Humanoid": {
         "AutoJumpEnabled": "0x1e0",
@@ -188,7 +188,7 @@
         "NameDisplayDistance": "0x1bc",
         "NameOcclusion": "0x1c0",
         "PlatformStand": "0x1e8",
-        "PlatformStatePointer": "0x8018A0F8",
+        "PlatformStatePointer": "0xACACCB23",
         "RequiresNeck": "0x1e9",
         "RigType": "0x1cc",
         "SeatPart": "0x120",
@@ -318,7 +318,7 @@
         "MaxZoomDistance": "0x330",
         "MinZoomDistance": "0x334",
         "ModelInstance": "0x3a8",
-        "Mouse": "0x1180",
+        "Mouse": "0x1178",
         "NameDisplayDistance": "0x368",
         "Team": "0x2b0",
         "TeamColor": "0x374",
@@ -408,7 +408,7 @@
         "Volume": "0x148"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x3d",
+        "AllowTeamChangeOnTouch": "0x45",
         "Enabled": "0x1f9",
         "ForcefieldDuration": "0x1f0",
         "Neutral": "0x1fa",
@@ -442,7 +442,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x7e90548"
+        "Pointer": "0x7e5f678"
     },
     "Team": {
         "BrickColor": "0xd0"
@@ -462,7 +462,7 @@
     },
     "Tool": {
         "CanBeDropped": "0x4c8",
-        "Enabled": "0x4c9",
+        "Enabled": "0x1b5",
         "Grip": "0x4bc",
         "ManualActivationOnly": "0x4ca",
         "RequiresHandle": "0x4cb",
@@ -485,7 +485,7 @@
     "VisualEngine": {
         "Dimensions": "0xab0",
         "FakeDataModel": "0xa90",
-        "Pointer": "0x801dfb0",
+        "Pointer": "0x7fed100",
         "RenderView": "0xbb0",
         "ViewMatrix": "0x150"
     },
