@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-76173e47a79145c7",
+    "ClientVersion": "version-8884371d30284041",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -13,7 +13,7 @@
         "TimePosition": "0xe8"
     },
     "Animator": {
-        "ActiveAnimations": "0x880"
+        "ActiveAnimations": "0x888"
     },
     "Atmosphere": {
         "Color": "0xd0",
@@ -25,6 +25,15 @@
     },
     "Attachment": {
         "Position": "0xdc"
+    },
+    "Attribute": {
+        "Key": "0x0",
+        "Size": "0x58",
+        "Value": "0x18"
+    },
+    "AttributesMap": {
+        "Attributes": "0x10",
+        "Length": "0x0"
     },
     "BasePart": {
         "CastShadow": "0xf5",
@@ -86,8 +95,8 @@
         "MouseIcon": "0xe0"
     },
     "Clothing": {
-        "Color3": "0x128",
-        "Template": "0x108"
+        "Color3": "0x138",
+        "Template": "0x118"
     },
     "ColorCorrectionEffect": {
         "Brightness": "0xdc",
@@ -100,16 +109,16 @@
         "TonemapperPreset": "0xd0"
     },
     "DataModel": {
-        "CreatorId": "0x190",
-        "GameId": "0x198",
-        "GameLoaded": "0x670",
+        "CreatorId": "0x198",
+        "GameId": "0x1a0",
+        "GameLoaded": "0x678",
         "JobId": "0x138",
-        "PlaceId": "0x1a0",
-        "PlaceVersion": "0x1bc",
-        "PrimitiveCount": "0x4a0",
+        "PlaceId": "0x1a8",
+        "PlaceVersion": "0x1c4",
+        "PrimitiveCount": "0x4a8",
         "ScriptContext": "0x440",
-        "ServerIP": "0x658",
-        "ToRenderView1": "0x1d8",
+        "ServerIP": "0x660",
+        "ToRenderView1": "0x1e0",
         "ToRenderView2": "0x8",
         "ToRenderView3": "0x28",
         "Workspace": "0x178"
@@ -135,7 +144,7 @@
         "Responsiveness": "0x2d8"
     },
     "FakeDataModel": {
-        "Pointer": "0x7a39ad8",
+        "Pointer": "0x7bcf6a8",
         "RealDataModel": "0x1d8"
     },
     "GuiBase2D": {
@@ -188,7 +197,7 @@
         "NameDisplayDistance": "0x1bc",
         "NameOcclusion": "0x1c0",
         "PlatformStand": "0x1e8",
-        "PlatformStatePointer": "0x1466de14",
+        "PlatformStatePointer": "0xacb79db3",
         "RequiresNeck": "0x1e9",
         "RigType": "0x1cc",
         "SeatPart": "0x120",
@@ -200,15 +209,12 @@
         "WalkspeedCheck": "0x3c4"
     },
     "Instance": {
-        "AttributeContainer": "0x48",
-        "AttributeList": "0x18",
-        "AttributeToNext": "0x58",
-        "AttributeToValue": "0x18",
         "ChildrenEnd": "0x8",
         "ChildrenStart": "0x78",
-        "ClassBase": "0xd50",
+        "ClassBase": "0x5b0",
         "ClassDescriptor": "0x18",
         "ClassName": "0x8",
+        "ComponentMap": "0x38",
         "Name": "0xb0",
         "Parent": "0x70",
         "This": "0x8"
@@ -267,7 +273,7 @@
     },
     "MeshContentProvider": {
         "AssetID": "0x10",
-        "Cache": "0xe8",
+        "Cache": "0xf0",
         "LRUCache": "0x20",
         "MeshData": "0x40",
         "ToMeshData": "0x40"
@@ -323,18 +329,18 @@
     },
     "Player": {
         "AccountAge": "0x34c",
-        "CameraMode": "0x358",
+        "CameraMode": "0x35c",
         "DisplayName": "0x150",
-        "HealthDisplayDistance": "0x378",
-        "LocalPlayer": "0x138",
+        "HealthDisplayDistance": "0x37c",
+        "LocalPlayer": "0x148",
         "LocaleId": "0x130",
-        "MaxZoomDistance": "0x349",
-        "MinZoomDistance": "0x354",
-        "ModelInstance": "0x3c8",
-        "Mouse": "0x1180",
-        "NameDisplayDistance": "0x388",
+        "MaxZoomDistance": "0x354",
+        "MinZoomDistance": "0x358",
+        "ModelInstance": "0x3d0",
+        "Mouse": "0x1188",
+        "NameDisplayDistance": "0x38c",
         "Team": "0x2d0",
-        "TeamColor": "0x394",
+        "TeamColor": "0x398",
         "UserId": "0x2f8"
     },
     "PlayerConfigurer": {
@@ -349,7 +355,7 @@
         "AssemblyLinearVelocity": "0xf8",
         "Flags": "0x1b6",
         "Material": "0x0",
-        "Owner": "0x200",
+        "Owner": "0x208",
         "Position": "0xec",
         "Rotation": "0xc8",
         "Size": "0x1b8",
@@ -383,8 +389,8 @@
         "VisualEngine": "0x10"
     },
     "RunService": {
-        "HeartbeatFPS": "0xb8",
-        "HeartbeatTask": "0xf8"
+        "HeartbeatFPS": "0xf4",
+        "HeartbeatTask": "0x3b8"
     },
     "Script": {
         "ByteCode": "0x1a8",
@@ -421,7 +427,7 @@
         "Volume": "0x148"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x3d",
+        "AllowTeamChangeOnTouch": "0x1f0",
         "Enabled": "0x1f1",
         "ForcefieldDuration": "0x1e8",
         "Neutral": "0x1f2",
@@ -455,7 +461,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x7fcb088"
+        "Pointer": "0x815c668"
     },
     "Team": {
         "BrickColor": "0xd0"
@@ -474,13 +480,13 @@
         "Texture_Texture": "0x198"
     },
     "Tool": {
-        "CanBeDropped": "0x4c8",
-        "Enabled": "0x4c9",
-        "Grip": "0x4bc",
-        "ManualActivationOnly": "0x4ca",
-        "RequiresHandle": "0x4cb",
-        "TextureId": "0x370",
-        "Tooltip": "0x478"
+        "CanBeDropped": "0x4c0",
+        "Enabled": "0x4c1",
+        "Grip": "0x4b4",
+        "ManualActivationOnly": "0x4c2",
+        "RequiresHandle": "0x4c3",
+        "TextureId": "0x368",
+        "Tooltip": "0x470"
     },
     "UnionOperation": {
         "AssetId": "0x2f0"
@@ -498,8 +504,8 @@
     "VisualEngine": {
         "Dimensions": "0xab0",
         "FakeDataModel": "0xa90",
-        "Pointer": "0x8158b80",
-        "RenderView": "0xbb0",
+        "Pointer": "0x82ea3f8",
+        "RenderView": "0xbb8",
         "ViewMatrix": "0x150"
     },
     "Weld": {
@@ -515,16 +521,16 @@
         "CurrentTextBox": "0x48"
     },
     "Workspace": {
-        "CurrentCamera": "0x4b0",
-        "DistributedGameTime": "0x4d0",
-        "ReadOnlyGravity": "0x9f0",
-        "World": "0x408"
+        "CurrentCamera": "0x4a8",
+        "DistributedGameTime": "0x4c8",
+        "ReadOnlyGravity": "0x9e8",
+        "World": "0x400"
     },
     "World": {
         "AirProperties": "0x218",
         "FallenPartsDestroyHeight": "0x208",
         "Gravity": "0x210",
-        "Primitives": "0x280",
-        "worldStepsPerSec": "0x678"
+        "Primitives": "0x288",
+        "worldStepsPerSec": "0x680"
     }
 }
