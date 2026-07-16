@@ -3,7 +3,7 @@ import re
 import json
 import os
 
-URL = "https://offsets.imtheo.lol/version-90f2fddd3b244ff6/offsets.hpp"
+URL = "https://offsets.imtheo.lol/offsets.hpp"
 
 
 def download(url):
