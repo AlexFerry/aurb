@@ -1,8 +1,8 @@
 {
-    "ClientVersion": "version-36a2600cebf1487d",
+    "ClientVersion": "version-ddf02245bdbb428c",
     "AirProperties": {
-        "AirDensity": "0x18",
-        "GlobalWind": "0x3c"
+        "AirDensity": "0x0",
+        "GlobalWind": "0x0"
     },
     "AnimationTrack": {
         "Animation": "0xb8",
@@ -111,13 +111,13 @@
     "DataModel": {
         "CreatorId": "0x180",
         "GameId": "0x188",
-        "GameLoaded": "0x668",
+        "GameLoaded": "0x578",
         "JobId": "0x120",
         "PlaceId": "0x190",
         "PlaceVersion": "0x1ac",
-        "PrimitiveCount": "0x498",
+        "PrimitiveCount": "0x3c0",
         "ScriptContext": "0x440",
-        "ServerIP": "0x650",
+        "ServerIP": "0x560",
         "ToRenderView1": "0x1c8",
         "ToRenderView2": "0x8",
         "ToRenderView3": "0x28",
@@ -144,7 +144,7 @@
         "Responsiveness": "0x2c0"
     },
     "FakeDataModel": {
-        "Pointer": "0x84a9e98",
+        "Pointer": "0x7d28508",
         "RealDataModel": "0x1d0"
     },
     "GuiBase2D": {
@@ -166,7 +166,7 @@
         "Text": "0xda0",
         "TextColor3": "0xe50",
         "Visible": "0x5ad",
-        "ZIndex": "0x18b"
+        "ZIndex": "0x5a4"
     },
     "Humanoid": {
         "AutoJumpEnabled": "0x1d4",
@@ -197,7 +197,7 @@
         "NameDisplayDistance": "0x1b0",
         "NameOcclusion": "0x1b4",
         "PlatformStand": "0x1dc",
-        "PlatformStatePointer": "0x87e8b173",
+        "PlatformStatePointer": "0x30d9fb61",
         "RequiresNeck": "0x1dd",
         "RigType": "0x1c0",
         "SeatPart": "0x108",
@@ -308,7 +308,7 @@
         "InputObject": "0xf0",
         "InputObject2": "0x100",
         "MousePosition": "0xd4",
-        "SensitivityPointer": "0x0"
+        "SensitivityPointer": "0x7ee9b58"
     },
     "ParticleEmitter": {
         "Acceleration": "0x1e0",
@@ -334,7 +334,7 @@
         "HealthDisplayDistance": "0x390",
         "LocalPlayer": "0x130",
         "LocaleId": "0x118",
-        "MaxZoomDistance": "0x368",
+        "MaxZoomDistance": "0x1bd",
         "MinZoomDistance": "0x36c",
         "ModelInstance": "0x298",
         "Mouse": "0x11d8",
@@ -389,8 +389,8 @@
         "VisualEngine": "0x10"
     },
     "RunService": {
-        "HeartbeatFPS": "0xb4",
-        "HeartbeatTask": "0xc08"
+        "HeartbeatFPS": "0xf4",
+        "HeartbeatTask": "0x3b8"
     },
     "Script": {
         "ByteCode": "0x190",
@@ -418,6 +418,7 @@
         "SunTextureId": "0x218"
     },
     "Sound": {
+        "IsPlaying": "0x140",
         "Looped": "0x13d",
         "PlaybackSpeed": "0x11c",
         "RollOffMaxDistance": "0x120",
@@ -427,7 +428,7 @@
         "Volume": "0x130"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x3d",
+        "AllowTeamChangeOnTouch": "0x188",
         "Enabled": "0x189",
         "ForcefieldDuration": "0x180",
         "Neutral": "0x18a",
@@ -461,7 +462,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x8041ec8"
+        "Pointer": "0x82b9f48"
     },
     "Team": {
         "BrickColor": "0xb8"
@@ -489,7 +490,7 @@
         "Tooltip": "0x468"
     },
     "UnionOperation": {
-        "AssetId": "0x288"
+        "AssetId": "0x290"
     },
     "UserInputService": {
         "WindowInputState": "0x2c0"
@@ -504,7 +505,7 @@
     "VisualEngine": {
         "Dimensions": "0xab0",
         "FakeDataModel": "0xa90",
-        "Pointer": "0x81d61c8",
+        "Pointer": "0x8447c68",
         "RenderView": "0xbb8",
         "ViewMatrix": "0x150"
     },
@@ -524,13 +525,13 @@
         "CurrentCamera": "0x488",
         "DistributedGameTime": "0x4a8",
         "ReadOnlyGravity": "0x998",
-        "World": "0x3e0"
+        "World": "0x368"
     },
     "World": {
-        "AirProperties": "0x218",
-        "FallenPartsDestroyHeight": "0x208",
-        "Gravity": "0x210",
-        "Primitives": "0x288",
-        "worldStepsPerSec": "0x680"
+        "AirProperties": "0x0",
+        "FallenPartsDestroyHeight": "0x0",
+        "Gravity": "0x1a4",
+        "Primitives": "0x0",
+        "worldStepsPerSec": "0xc16"
     }
 }
