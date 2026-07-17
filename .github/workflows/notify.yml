@@ -10,46 +10,61 @@ jobs:
   notify:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-      - name: Generate message and send to Discord
+      - uses: actions/checkout@v4
+
+      - name: Check daily notification
+        id: notify_check
         run: |
-          export LANG=C.UTF-8
+          export TZ='America/Sao_Paulo'
 
-          sudo apt-get update -y
-          sudo apt-get install -y jq
+          TODAY=$(date +'%Y-%m-%d')
 
+          LAST=""
+          if [ -f .github/notify.txt ]; then
+            LAST=$(cat .github/notify.txt)
+          fi
+
+          if [ "$LAST" = "$TODAY" ]; then
+            echo "send=false" >> $GITHUB_OUTPUT
+          else
+            echo "send=true" >> $GITHUB_OUTPUT
+            echo "$TODAY" > .github/notify.txt
+          fi
+
+      - name: Send Discord message
+        if: steps.notify_check.outputs.send == 'true'
+        run: |
           export TZ='America/Sao_Paulo'
           DATE=$(date +'%d/%m')
-
-          MESSAGES=(
-            "[+] Otimização geral de desempenho interno."
-            "[+] Refatoração de módulos críticos do sistema."
-            "[+] Melhorias na estabilidade em execução prolongada."
-            "[+] Ajustes no gerenciamento de memória."
-            "[+] Aprimoramento dos métodos de segurança."
-            "[+] Redução de inconsistências em cenários específicos."
-            "[+] Melhorias internas no sistema de detecção."
-            "[+] Melhorias estruturais no código base."
-          )
-
-          # Quantidade aleatória de mensagens (0 a 3)
-          COUNT=$((RANDOM % 4))
-          RANDOM_MSGS=$(printf "%s\n" "${MESSAGES[@]}" | shuf | head -n $COUNT)
 
           CONTENT=$(cat <<EOF
           \`\`\`
           ⏹️ Legit Roblox [UPDATED ${DATE}]
-          
+
           [+] Compatibilidade com a nova versão do jogo.
-          ${RANDOM_MSGS}
           \`\`\`
-          [**〔 COMPRAR 〕**](https://discord.com/channels/1369186271196483686/1482920072661045288) | [**〔 DOWNLOAD 〕**](https://discord.com/channels/1369186271196483686/1371936693678113001)  | [**〔 SUPORTE 〕**](https://discord.com/channels/1369186271196483686/1412587930677018784)
+          [**〔 COMPRAR 〕**](https://discord.com/channels/1369186271196483686/1482920072661045288) | [**〔 DOWNLOAD 〕**](https://discord.com/channels/1369186271196483686/1371936693678113001) | [**〔 SUPORTE 〕**](https://discord.com/channels/1369186271196483686/1412587930677018784)
           EOF
           )
 
-          JSON=$(jq -n --arg content "$CONTENT" '{content: $content}')
+          jq -n --arg content "$CONTENT" '{content:$content}' > payload.json
 
-          curl -H "Content-Type: application/json" \
-               -X POST \
-               -d "$JSON" \
-               ${{ secrets.DISCORD_WEBHOOK }}
+          curl \
+            -H "Content-Type: application/json" \
+            -X POST \
+            -d @payload.json \
+            "${{ secrets.DISCORD_WEBHOOK }}"
+
+      - name: Save notification date
+        if: steps.notify_check.outputs.send == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .github/notify.txt
+          git commit -m "Update notify date" || exit 0
+          git push
