@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-9affbe66b2624d20",
+    "ClientVersion": "version-ed2b47b81f08484a",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -144,7 +144,7 @@
         "Responsiveness": "0x2c0"
     },
     "FakeDataModel": {
-        "Pointer": "0x85c6908",
+        "Pointer": "0x7dccd88",
         "RealDataModel": "0x1d0"
     },
     "GuiBase2D": {
@@ -197,7 +197,7 @@
         "NameDisplayDistance": "0x1b0",
         "NameOcclusion": "0x1b4",
         "PlatformStand": "0x1dc",
-        "PlatformStatePointer": "0x14baee23",
+        "PlatformStatePointer": "0xacac9dd3",
         "RequiresNeck": "0x1dd",
         "RigType": "0x1c0",
         "SeatPart": "0x108",
@@ -308,7 +308,7 @@
         "InputObject": "0xf0",
         "InputObject2": "0x100",
         "MousePosition": "0xd4",
-        "SensitivityPointer": "0x0"
+        "SensitivityPointer": "0x7f90688"
     },
     "ParticleEmitter": {
         "Acceleration": "0x1e0",
@@ -341,7 +341,7 @@
         "NameDisplayDistance": "0x3a0",
         "Team": "0x2d8",
         "TeamColor": "0x3ac",
-        "UserId": "0x300"
+        "UserId": "0xd0"
     },
     "PlayerConfigurer": {
         "Pointer": "0x0"
@@ -389,8 +389,8 @@
         "VisualEngine": "0x10"
     },
     "RunService": {
-        "HeartbeatFPS": "0xd2",
-        "HeartbeatTask": "0x1a0"
+        "HeartbeatFPS": "0xf4",
+        "HeartbeatTask": "0x24b8"
     },
     "Script": {
         "ByteCode": "0x190",
@@ -428,7 +428,7 @@
         "Volume": "0x130"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x3d",
+        "AllowTeamChangeOnTouch": "0x188",
         "Enabled": "0x189",
         "ForcefieldDuration": "0x180",
         "Neutral": "0x18a",
@@ -462,7 +462,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x815d398"
+        "Pointer": "0x836aae8"
     },
     "Team": {
         "BrickColor": "0xb8"
@@ -482,10 +482,10 @@
     },
     "Tool": {
         "CanBeDropped": "0x4b8",
-        "Enabled": "0x395",
+        "Enabled": "0x4b9",
         "Grip": "0x4ac",
         "ManualActivationOnly": "0x4ba",
-        "RequiresHandle": "0x245",
+        "RequiresHandle": "0x4bb",
         "TextureId": "0x360",
         "Tooltip": "0x468"
     },
@@ -505,7 +505,7 @@
     "VisualEngine": {
         "Dimensions": "0xab0",
         "FakeDataModel": "0xa90",
-        "Pointer": "0x82f16a8",
+        "Pointer": "0x84f8808",
         "RenderView": "0xbb8",
         "ViewMatrix": "0x150"
     },
