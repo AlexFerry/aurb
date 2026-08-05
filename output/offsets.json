@@ -7,7 +7,7 @@
     "AnimationTrack": {
         "Animation": "0xb8",
         "Animator": "0x108",
-        "IsPlaying": "0x5ef",
+        "IsPlaying": "0xa90",
         "Looped": "0xe5",
         "Speed": "0xd4",
         "TimePosition": "0xd8"
@@ -166,7 +166,7 @@
         "Text": "0xde8",
         "TextColor3": "0xe98",
         "Visible": "0x5ad",
-        "ZIndex": "0x18b"
+        "ZIndex": "0x5a4"
     },
     "Humanoid": {
         "AutoJumpEnabled": "0x1d4",
@@ -197,11 +197,11 @@
         "NameDisplayDistance": "0x1b0",
         "NameOcclusion": "0x1b4",
         "PlatformStand": "0x1dc",
-        "PlatformStatePointer": "0x04f6872a",
-        "RequiresNeck": "0x1dd",
+        "PlatformStatePointer": "0x1466df98",
+        "RequiresNeck": "0xe5",
         "RigType": "0x1c0",
         "SeatPart": "0x108",
-        "Sit": "0x1dd",
+        "Sit": "0xe5",
         "TargetPoint": "0x14c",
         "UseJumpPower": "0x1e0",
         "WalkTimer": "0x408",
@@ -341,7 +341,7 @@
         "NameDisplayDistance": "0x3a0",
         "Team": "0x2d8",
         "TeamColor": "0x3ac",
-        "UserId": "0xd0"
+        "UserId": "0x300"
     },
     "PlayerConfigurer": {
         "Pointer": "0x0"
@@ -431,7 +431,7 @@
         "AllowTeamChangeOnTouch": "0x3d",
         "Enabled": "0x189",
         "ForcefieldDuration": "0x180",
-        "Neutral": "0xad",
+        "Neutral": "0x18a",
         "TeamColor": "0x184"
     },
     "SpecialMesh": {
@@ -482,9 +482,9 @@
     },
     "Tool": {
         "CanBeDropped": "0x4b8",
-        "Enabled": "0x165",
+        "Enabled": "0x3e5",
         "Grip": "0x4ac",
-        "ManualActivationOnly": "0x4ba",
+        "ManualActivationOnly": "0x165",
         "RequiresHandle": "0x4bb",
         "TextureId": "0x360",
         "Tooltip": "0x468"
