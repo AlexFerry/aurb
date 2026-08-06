@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-145f189a6a974303",
+    "ClientVersion": "version-d584fb6c717a43d9",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -26,18 +26,9 @@
     "Attachment": {
         "Position": "0xc4"
     },
-    "Attribute": {
-        "Key": "0x0",
-        "Size": "0x58",
-        "Value": "0x18"
-    },
-    "AttributesMap": {
-        "Attributes": "0x10",
-        "Length": "0x0"
-    },
     "BasePart": {
         "CastShadow": "0xd5",
-        "Color3": "0x148",
+        "Color3": "0xf4",
         "Locked": "0xd6",
         "Massless": "0xd7",
         "Primitive": "0x128",
@@ -86,7 +77,7 @@
     },
     "CharacterMesh": {
         "BaseTextureId": "0xc8",
-        "BodyPart": "0x148",
+        "BodyPart": "0x100",
         "MeshId": "0xf8",
         "OverlayTextureId": "0x128"
     },
@@ -144,13 +135,13 @@
         "Responsiveness": "0x2c0"
     },
     "FakeDataModel": {
-        "Pointer": "0x7e26978",
+        "Pointer": "0x8a5d748",
         "RealDataModel": "0x1d0"
     },
     "GuiBase2D": {
-        "AbsolutePosition": "0xf8",
-        "AbsoluteRotation": "0x178",
-        "AbsoluteSize": "0x100"
+        "AbsolutePosition": "0x10c",
+        "AbsoluteRotation": "0xe8",
+        "AbsoluteSize": "0x114"
     },
     "GuiObject": {
         "BackgroundColor3": "0x540",
@@ -160,11 +151,11 @@
         "LayoutOrder": "0x580",
         "Position": "0x510",
         "RichText": "0xb78",
-        "Rotation": "0x178",
+        "Rotation": "0xe8",
         "ScreenGui_Enabled": "0x4c4",
         "Size": "0x530",
-        "Text": "0xde8",
-        "TextColor3": "0xe98",
+        "Text": "0xdf0",
+        "TextColor3": "0xea0",
         "Visible": "0x5ad",
         "ZIndex": "0x5a4"
     },
@@ -197,11 +188,11 @@
         "NameDisplayDistance": "0x1b0",
         "NameOcclusion": "0x1b4",
         "PlatformStand": "0x1dc",
-        "PlatformStatePointer": "0xaccbfed7",
-        "RequiresNeck": "0xe5",
+        "PlatformStatePointer": "0xacac9dd2",
+        "RequiresNeck": "0x1dd",
         "RigType": "0x1c0",
         "SeatPart": "0x108",
-        "Sit": "0xe5",
+        "Sit": "0x1dd",
         "TargetPoint": "0x14c",
         "UseJumpPower": "0x1e0",
         "WalkTimer": "0x408",
@@ -210,12 +201,12 @@
     },
     "Instance": {
         "ChildrenEnd": "0x8",
-        "ChildrenStart": "0x70",
+        "ChildrenStart": "0x78",
         "ClassBase": "0x1b0",
         "ClassDescriptor": "0x18",
         "ClassName": "0x8",
-        "ComponentMap": "0x38",
-        "Name": "0x98",
+        "Name": "0x8",
+        "NameContainer": "0x70",
         "Parent": "0x68",
         "This": "0x8"
     },
@@ -233,18 +224,18 @@
         "FogStart": "0x130",
         "GeographicLatitude": "0x134",
         "GlobalShadows": "0x144",
-        "GradientBottom": "0x188",
-        "GradientTop": "0x148",
-        "LightColor": "0x154",
-        "LightDirection": "0x160",
-        "MoonPosition": "0x17c",
+        "GradientBottom": "0x190",
+        "GradientTop": "0x150",
+        "LightColor": "0x15c",
+        "LightDirection": "0x168",
+        "MoonPosition": "0x184",
         "OutdoorAmbient": "0x100",
-        "Sky": "0x1c0",
-        "Source": "0x16c",
-        "SunPosition": "0x170"
+        "Sky": "0x1c8",
+        "Source": "0x174",
+        "SunPosition": "0x178"
     },
     "LocalScript": {
-        "ByteCode": "0x190",
+        "ByteCode": "0x0",
         "GUID": "0xd0",
         "Hash": "0x1a0"
     },
@@ -291,7 +282,7 @@
     "Misc": {
         "Adornee": "0xf0",
         "AnimationId": "0xc0",
-        "StringLength": "0x10",
+        "StringLength": "0x0",
         "Value": "0xb8"
     },
     "Model": {
@@ -299,7 +290,7 @@
         "Scale": "0x144"
     },
     "ModuleScript": {
-        "ByteCode": "0x138",
+        "ByteCode": "0x0",
         "GUID": "0xd0",
         "Hash": "0x148",
         "IsCoreScript": "0x0"
@@ -308,7 +299,7 @@
         "InputObject": "0xf0",
         "InputObject2": "0x100",
         "MousePosition": "0xd4",
-        "SensitivityPointer": "0x7fd51b8"
+        "SensitivityPointer": "0x0"
     },
     "ParticleEmitter": {
         "Acceleration": "0x1e0",
@@ -337,7 +328,7 @@
         "MaxZoomDistance": "0x368",
         "MinZoomDistance": "0x36c",
         "ModelInstance": "0x298",
-        "Mouse": "0x11e0",
+        "Mouse": "0x11e8",
         "NameDisplayDistance": "0x3a0",
         "Team": "0x2d8",
         "TeamColor": "0x3ac",
@@ -355,10 +346,10 @@
         "AssemblyLinearVelocity": "0xf8",
         "Flags": "0x1b6",
         "Material": "0x0",
-        "Owner": "0x208",
+        "Owner": "0x210",
         "Position": "0xec",
         "Rotation": "0xc8",
-        "Size": "0x1b8",
+        "Size": "0x1bc",
         "Validate": "0x6"
     },
     "PrimitiveFlags": {
@@ -390,10 +381,10 @@
     },
     "RunService": {
         "HeartbeatFPS": "0xf4",
-        "HeartbeatTask": "0x3b8"
+        "HeartbeatTask": "0x6b8"
     },
     "Script": {
-        "ByteCode": "0x190",
+        "ByteCode": "0x0",
         "GUID": "0xd0",
         "Hash": "0x1a0"
     },
@@ -462,7 +453,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x84a58e0"
+        "Pointer": "0x879a6e8"
     },
     "Team": {
         "BrickColor": "0xb8"
@@ -482,9 +473,9 @@
     },
     "Tool": {
         "CanBeDropped": "0x4b8",
-        "Enabled": "0x3e5",
+        "Enabled": "0x345",
         "Grip": "0x4ac",
-        "ManualActivationOnly": "0x165",
+        "ManualActivationOnly": "0x295",
         "RequiresHandle": "0x4bb",
         "TextureId": "0x360",
         "Tooltip": "0x468"
@@ -505,7 +496,7 @@
     "VisualEngine": {
         "Dimensions": "0xae0",
         "FakeDataModel": "0xac0",
-        "Pointer": "0x8818f60",
+        "Pointer": "0x811d0a0",
         "RenderView": "0xbf0",
         "ViewMatrix": "0x180"
     },
@@ -524,14 +515,14 @@
     "Workspace": {
         "CurrentCamera": "0x498",
         "DistributedGameTime": "0x4b8",
-        "ReadOnlyGravity": "0x9b0",
+        "ReadOnlyGravity": "0x9b8",
         "World": "0x3f0"
     },
     "World": {
-        "AirProperties": "0x218",
+        "AirProperties": "0x220",
         "FallenPartsDestroyHeight": "0x208",
         "Gravity": "0x210",
-        "Primitives": "0x288",
-        "worldStepsPerSec": "0x700"
+        "Primitives": "0x290",
+        "worldStepsPerSec": "0x708"
     }
 }
