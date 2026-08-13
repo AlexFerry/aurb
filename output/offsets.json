@@ -188,7 +188,7 @@
         "NameDisplayDistance": "0x1b0",
         "NameOcclusion": "0x1b4",
         "PlatformStand": "0xc5",
-        "PlatformStatePointer": "0x30d63663",
+        "PlatformStatePointer": "0x34a13b63",
         "RequiresNeck": "0x1dd",
         "RigType": "0x1c0",
         "SeatPart": "0x108",
