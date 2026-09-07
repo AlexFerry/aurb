@@ -65,6 +65,9 @@
         "Pointer": "0x10",
         "Size": "0x20"
     },
+    "CachedItem": {
+        "FileMeshData": "0x40"
+    },
     "Camera": {
         "CameraSubject": "0xc8",
         "CameraType": "0x138",
@@ -138,10 +141,18 @@
         "Pointer": "0x8d22868",
         "RealDataModel": "0x1f8"
     },
+    "FileMeshData": {
+        "AABBMax": "0x2bc",
+        "AABBMin": "0x2b0",
+        "Faces": "0x30",
+        "FacesEnd": "0x38",
+        "Vertices": "0x0",
+        "VerticesEnd": "0x8"
+    },
     "GuiBase2D": {
-        "AbsolutePosition": "0x10c",
+        "AbsolutePosition": "0x0",
         "AbsoluteRotation": "0xe8",
-        "AbsoluteSize": "0x114"
+        "AbsoluteSize": "0x0"
     },
     "GuiObject": {
         "BackgroundColor3": "0x540",
@@ -188,7 +199,7 @@
         "NameDisplayDistance": "0x1b0",
         "NameOcclusion": "0x1b4",
         "PlatformStand": "0x1dc",
-        "PlatformStatePointer": "0x8777eb54",
+        "PlatformStatePointer": "0x1476d66a",
         "RequiresNeck": "0x1dd",
         "RigType": "0x1c0",
         "SeatPart": "0x108",
@@ -209,6 +220,14 @@
         "NameContainer": "0x70",
         "Parent": "0x68",
         "This": "0x8"
+    },
+    "LRUHolder": {
+        "MemEnforcedLRUCache": "0x20"
+    },
+    "LRUNode": {
+        "AssetID": "0x10",
+        "CachedItem": "0x40",
+        "Next": "0x0"
     },
     "Lighting": {
         "Ambient": "0xd0",
@@ -235,7 +254,7 @@
         "SunPosition": "0x178"
     },
     "LocalScript": {
-        "ByteCode": "0x0",
+        "ByteCode": "0xf00",
         "GUID": "0xd0",
         "Hash": "0x1a0"
     },
@@ -262,18 +281,11 @@
         "Snow": "0x1e",
         "WoodPlanks": "0x15"
     },
-    "MeshContentProvider": {
-        "AssetID": "0x10",
-        "Cache": "0xf0",
-        "LRUCache": "0x20",
-        "MeshData": "0x40",
-        "ToMeshData": "0x40"
+    "MemEnforcedLRUCache": {
+        "Head": "0x8"
     },
-    "MeshData": {
-        "FaceEnd": "0x38",
-        "FaceStart": "0x30",
-        "VertexEnd": "0x8",
-        "VertexStart": "0x0"
+    "MeshContentProvider": {
+        "LRUHolder": "0xd8"
     },
     "MeshPart": {
         "MeshId": "0x310",
@@ -374,13 +386,13 @@
         "RenderView": "0x1d8"
     },
     "RenderView": {
-        "DeviceD3D11": "0x8",
-        "LightingValid": "0x150",
-        "SkyValid": "0x28d",
-        "VisualEngine": "0x10"
+        "DeviceD3D11": "0x0",
+        "LightingValid": "0x0",
+        "SkyValid": "0x0",
+        "VisualEngine": "0x0"
     },
     "RunService": {
-        "HeartbeatFPS": "0xc0",
+        "HeartbeatFPS": "0xc8",
         "HeartbeatTask": "0xe0"
     },
     "Script": {
@@ -419,7 +431,7 @@
         "Volume": "0x130"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x3d",
+        "AllowTeamChangeOnTouch": "0x1f0",
         "Enabled": "0x1f1",
         "ForcefieldDuration": "0x1e8",
         "Neutral": "0x1f2",
@@ -430,7 +442,7 @@
         "Scale": "0xc4"
     },
     "StatsItem": {
-        "Value": "0xc8"
+        "Value": "0xad34"
     },
     "SunRaysEffect": {
         "Enabled": "0xb0",
@@ -473,10 +485,10 @@
     },
     "Tool": {
         "CanBeDropped": "0x4b8",
-        "Enabled": "0x4b9",
+        "Enabled": "0x405",
         "Grip": "0x4ac",
         "ManualActivationOnly": "0x4ba",
-        "RequiresHandle": "0x1d5",
+        "RequiresHandle": "0x475",
         "TextureId": "0x360",
         "Tooltip": "0x468"
     },
@@ -489,7 +501,7 @@
     "VehicleSeat": {
         "MaxSpeed": "0x228",
         "SteerFloat": "0x22c",
-        "ThrottleFloat": "0x188",
+        "ThrottleFloat": "0x230",
         "Torque": "0x234",
         "TurnSpeed": "0x238"
     },
@@ -497,8 +509,7 @@
         "Dimensions": "0xb10",
         "FakeDataModel": "0xaf0",
         "Pointer": "0x8351408",
-        "RenderView": "0xc30",
-        "ViewMatrix": "0x1b0"
+        "RenderView": "0xc30"
     },
     "Weld": {
         "Part0": "0x118",
