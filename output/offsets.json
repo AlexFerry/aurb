@@ -199,7 +199,7 @@
         "NameDisplayDistance": "0x1b0",
         "NameOcclusion": "0x1b4",
         "PlatformStand": "0x1dc",
-        "PlatformStatePointer": "0x049b65c0",
+        "PlatformStatePointer": "0x1403a757",
         "RequiresNeck": "0x1dd",
         "RigType": "0x1c0",
         "SeatPart": "0x108",
@@ -392,7 +392,7 @@
         "VisualEngine": "0x0"
     },
     "RunService": {
-        "HeartbeatFPS": "0xc8",
+        "HeartbeatFPS": "0xc5",
         "HeartbeatTask": "0xe0"
     },
     "Script": {
@@ -421,7 +421,7 @@
         "SunTextureId": "0x218"
     },
     "Sound": {
-        "IsPlaying": "0x140",
+        "IsPlaying": "0x0",
         "Looped": "0x13d",
         "PlaybackSpeed": "0x11c",
         "RollOffMaxDistance": "0x120",
@@ -442,7 +442,7 @@
         "Scale": "0xc4"
     },
     "StatsItem": {
-        "Value": "0xad34"
+        "Value": "0xbda"
     },
     "SunRaysEffect": {
         "Enabled": "0xb0",
@@ -485,10 +485,10 @@
     },
     "Tool": {
         "CanBeDropped": "0x4b8",
-        "Enabled": "0x405",
+        "Enabled": "0x4b9",
         "Grip": "0x4ac",
         "ManualActivationOnly": "0x4ba",
-        "RequiresHandle": "0x475",
+        "RequiresHandle": "0x4bb",
         "TextureId": "0x360",
         "Tooltip": "0x468"
     },
@@ -509,7 +509,8 @@
         "Dimensions": "0xb10",
         "FakeDataModel": "0xaf0",
         "Pointer": "0x8351408",
-        "RenderView": "0xc30"
+        "RenderView": "0xc30",
+        "ViewMatrix": "0x1b0"
     },
     "Weld": {
         "Part0": "0x118",
