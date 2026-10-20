@@ -1,65 +1,65 @@
 {
-    "ClientVersion": "version-11f155f3450f4c8e",
+    "ClientVersion": "version-9ac8595712b447a7",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
     },
     "AnimationTrack": {
-        "Animation": "0xa8",
-        "Animator": "0x100",
-        "IsPlaying": "0xa48",
-        "Looped": "0xd5",
-        "Speed": "0xc4",
-        "TimePosition": "0xc8"
+        "Animation": "0xa0",
+        "Animator": "0xf8",
+        "IsPlaying": "0xa10",
+        "Looped": "0xcd",
+        "Speed": "0xbc",
+        "TimePosition": "0xc0"
     },
     "Animator": {
-        "ActiveAnimations": "0xa80"
+        "ActiveAnimations": "0x900"
     },
     "Atmosphere": {
-        "Color": "0xa8",
-        "Decay": "0xb4",
-        "Density": "0xc0",
-        "Glare": "0xc4",
-        "Haze": "0xc8",
-        "Offset": "0xcc"
+        "Color": "0xa0",
+        "Decay": "0xac",
+        "Density": "0xb8",
+        "Glare": "0xbc",
+        "Haze": "0xc0",
+        "Offset": "0xc4"
     },
     "Attachment": {
-        "Position": "0xb4"
+        "Position": "0xac"
     },
     "BasePart": {
-        "CastShadow": "0x128",
-        "Color3": "0x39",
-        "Locked": "0x129",
-        "Massless": "0x12a",
-        "Primitive": "0x180",
-        "Reflectance": "0xfc",
-        "Shape": "0x1a8",
-        "Transparency": "0x120"
+        "CastShadow": "0x120",
+        "Color3": "0x12",
+        "Locked": "0x121",
+        "Massless": "0x122",
+        "Primitive": "0x178",
+        "Reflectance": "0xf4",
+        "Shape": "0x1a0",
+        "Transparency": "0x118"
     },
     "Beam": {
-        "Attachment0": "0x150",
-        "Attachment1": "0x160",
-        "Brightness": "0x170",
-        "CurveSize0": "0x174",
-        "CurveSize1": "0x178",
-        "LightEmission": "0x17c",
-        "LightInfluence": "0x180",
-        "Texture": "0x130",
-        "TextureLength": "0x18c",
-        "TextureSpeed": "0x194",
-        "Width0": "0x198",
-        "Width1": "0x19c",
-        "ZOffset": "0x1a0"
+        "Attachment0": "0x148",
+        "Attachment1": "0x158",
+        "Brightness": "0x168",
+        "CurveSize0": "0x16c",
+        "CurveSize1": "0x170",
+        "LightEmission": "0x174",
+        "LightInfluence": "0x178",
+        "Texture": "0x128",
+        "TextureLength": "0x184",
+        "TextureSpeed": "0x18c",
+        "Width0": "0x190",
+        "Width1": "0x194",
+        "ZOffset": "0x198"
     },
     "BloomEffect": {
-        "Enabled": "0xa0",
-        "Intensity": "0xa8",
-        "Size": "0xac",
-        "Threshold": "0xb0"
+        "Enabled": "0x98",
+        "Intensity": "0xa0",
+        "Size": "0xa4",
+        "Threshold": "0xa8"
     },
     "BlurEffect": {
-        "Enabled": "0xa0",
-        "Size": "0xa8"
+        "Enabled": "0x98",
+        "Size": "0xa0"
     },
     "ByteCode": {
         "Pointer": "0x10",
@@ -69,76 +69,76 @@
         "FileMeshData": "0x40"
     },
     "Camera": {
-        "CameraSubject": "0xb8",
-        "CameraType": "0x128",
-        "FieldOfView": "0x130",
-        "ImagePlaneDepth": "0x2d4",
-        "Position": "0xec",
-        "Rotation": "0xc8",
-        "Viewport": "0x28c",
-        "ViewportSize": "0x2cc"
+        "CameraSubject": "0xb0",
+        "CameraType": "0x120",
+        "FieldOfView": "0x128",
+        "ImagePlaneDepth": "0x2cc",
+        "Position": "0xe4",
+        "Rotation": "0xc0",
+        "Viewport": "0x284",
+        "ViewportSize": "0x2c4"
     },
     "CharacterMesh": {
-        "BaseTextureId": "0xb8",
-        "BodyPart": "0x138",
-        "MeshId": "0xe8",
-        "OverlayTextureId": "0x118"
+        "BaseTextureId": "0xb0",
+        "BodyPart": "0x130",
+        "MeshId": "0xe0",
+        "OverlayTextureId": "0x110"
     },
     "ClickDetector": {
-        "MaxActivationDistance": "0xd8",
-        "MouseIcon": "0xb8"
+        "MaxActivationDistance": "0xd0",
+        "MouseIcon": "0xb0"
     },
     "Clothing": {
-        "Color3": "0x110",
-        "Template": "0xf0"
+        "Color3": "0x108",
+        "Template": "0xe8"
     },
     "ColorCorrectionEffect": {
-        "Brightness": "0xb4",
-        "Contrast": "0xb8",
-        "Enabled": "0xa0",
-        "TintColor": "0xa8"
+        "Brightness": "0xac",
+        "Contrast": "0xb0",
+        "Enabled": "0x98",
+        "TintColor": "0xa0"
     },
     "ColorGradingEffect": {
-        "Enabled": "0xa0",
-        "TonemapperPreset": "0xa8"
+        "Enabled": "0x98",
+        "TonemapperPreset": "0xa0"
     },
     "DataModel": {
-        "CreatorId": "0x178",
-        "GameId": "0x180",
-        "GameLoaded": "0x5d0",
-        "JobId": "0x110",
-        "PlaceId": "0x188",
-        "PlaceVersion": "0x1a4",
-        "PrimitiveCount": "0x418",
+        "CreatorId": "0x170",
+        "GameId": "0x178",
+        "GameLoaded": "0x5c8",
+        "JobId": "0x108",
+        "PlaceId": "0x180",
+        "PlaceVersion": "0x19c",
+        "PrimitiveCount": "0x410",
         "ScriptContext": "0x440",
-        "ServerIP": "0x5b8",
-        "ToRenderView1": "0x1c0",
+        "ServerIP": "0x5b0",
+        "ToRenderView1": "0x1b8",
         "ToRenderView2": "0x8",
         "ToRenderView3": "0x28",
-        "Workspace": "0x150"
+        "Workspace": "0x148"
     },
     "DepthOfFieldEffect": {
-        "Enabled": "0xa0",
-        "FarIntensity": "0xa8",
-        "FocusDistance": "0xac",
-        "InFocusRadius": "0xb0",
-        "NearIntensity": "0xb4"
+        "Enabled": "0x98",
+        "FarIntensity": "0xa0",
+        "FocusDistance": "0xa4",
+        "InFocusRadius": "0xa8",
+        "NearIntensity": "0xac"
     },
     "DragDetector": {
-        "ActivatedCursorIcon": "0x1b0",
-        "CursorIcon": "0xb8",
-        "MaxActivationDistance": "0xd8",
-        "MaxDragAngle": "0x298",
-        "MaxDragTranslation": "0x25c",
-        "MaxForce": "0x29c",
-        "MaxTorque": "0x2a0",
-        "MinDragAngle": "0x2a4",
-        "MinDragTranslation": "0x268",
-        "ReferenceInstance": "0x1e0",
-        "Responsiveness": "0x2b0"
+        "ActivatedCursorIcon": "0x1a8",
+        "CursorIcon": "0xb0",
+        "MaxActivationDistance": "0xd0",
+        "MaxDragAngle": "0x290",
+        "MaxDragTranslation": "0x254",
+        "MaxForce": "0x294",
+        "MaxTorque": "0x298",
+        "MinDragAngle": "0x29c",
+        "MinDragTranslation": "0x260",
+        "ReferenceInstance": "0x1d8",
+        "Responsiveness": "0x2a8"
     },
     "FakeDataModel": {
-        "Pointer": "0x8dc8000",
+        "Pointer": "0x8f59810",
         "RealDataModel": "0x1f8"
     },
     "FileMeshData": {
@@ -150,75 +150,75 @@
         "VerticesEnd": "0x8"
     },
     "GuiBase2D": {
-        "AbsolutePosition": "0xfc",
-        "AbsoluteRotation": "0xd8",
+        "AbsolutePosition": "0xf4",
+        "AbsoluteRotation": "0xd0",
         "AbsoluteSize": "0x0"
     },
     "GuiObject": {
-        "BackgroundColor3": "0x530",
-        "BackgroundTransparency": "0x53c",
-        "BorderColor3": "0x53c",
-        "Image": "0x9a8",
-        "LayoutOrder": "0x56c",
-        "Position": "0x500",
-        "RichText": "0xba0",
-        "Rotation": "0xd8",
-        "ScreenGui_Enabled": "0x4b4",
-        "Size": "0x520",
-        "Text": "0xe08",
-        "TextColor3": "0xeb8",
-        "Visible": "0x59d",
-        "ZIndex": "0x594"
+        "BackgroundColor3": "0x528",
+        "BackgroundTransparency": "0x534",
+        "BorderColor3": "0x534",
+        "Image": "0x9d8",
+        "LayoutOrder": "0x564",
+        "Position": "0x4f8",
+        "RichText": "0xbd0",
+        "Rotation": "0xd0",
+        "ScreenGui_Enabled": "0x4ac",
+        "Size": "0x518",
+        "Text": "0xe38",
+        "TextColor3": "0xee8",
+        "Visible": "0x595",
+        "ZIndex": "0x58c"
     },
     "Humanoid": {
-        "AutoJumpEnabled": "0x1d0",
-        "AutoRotate": "0x1d1",
-        "AutomaticScalingEnabled": "0x1d2",
-        "BreakJointsOnDeath": "0xd5",
-        "CameraOffset": "0x118",
-        "DisplayDistanceType": "0x17c",
-        "DisplayName": "0xa8",
-        "EvaluateStateMachine": "0x1d4",
-        "FloorMaterial": "0x180",
-        "Health": "0x18c",
-        "HealthDisplayDistance": "0x184",
-        "HealthDisplayType": "0x188",
-        "HipHeight": "0x190",
-        "HumanoidRootPart": "0x468",
-        "HumanoidState": "0x8b0",
+        "AutoJumpEnabled": "0x1c8",
+        "AutoRotate": "0x1c9",
+        "AutomaticScalingEnabled": "0x1ca",
+        "BreakJointsOnDeath": "0x1cb",
+        "CameraOffset": "0x110",
+        "DisplayDistanceType": "0x174",
+        "DisplayName": "0xa0",
+        "EvaluateStateMachine": "0x1cc",
+        "FloorMaterial": "0x178",
+        "Health": "0x184",
+        "HealthDisplayDistance": "0x17c",
+        "HealthDisplayType": "0x180",
+        "HipHeight": "0x188",
+        "HumanoidRootPart": "0x460",
+        "HumanoidState": "0x8a8",
         "HumanoidStateID": "0x20",
-        "IsWalking": "0xa2f",
-        "Jump": "0x1d7",
-        "JumpHeight": "0x19c",
-        "JumpPower": "0x1a0",
-        "MaxHealth": "0x1a4",
-        "MaxSlopeAngle": "0x1a8",
-        "MoveDirection": "0x13c",
-        "MoveToPart": "0x108",
-        "MoveToPoint": "0x160",
-        "NameDisplayDistance": "0x1ac",
-        "NameOcclusion": "0x1b0",
-        "PlatformStand": "0x1d9",
-        "PlatformStatePointer": "0xacb6c161",
-        "RequiresNeck": "0x1da",
-        "RigType": "0x1bc",
-        "SeatPart": "0xf8",
-        "Sit": "0x1da",
-        "TargetPoint": "0x148",
-        "UseJumpPower": "0x1dd",
-        "WalkTimer": "0x3f0",
-        "Walkspeed": "0x1cc",
-        "WalkspeedCheck": "0x3a4"
+        "IsWalking": "0xa27",
+        "Jump": "0x1cf",
+        "JumpHeight": "0x194",
+        "JumpPower": "0x198",
+        "MaxHealth": "0x19c",
+        "MaxSlopeAngle": "0x1a0",
+        "MoveDirection": "0x134",
+        "MoveToPart": "0x100",
+        "MoveToPoint": "0x158",
+        "NameDisplayDistance": "0x1a4",
+        "NameOcclusion": "0x1a8",
+        "PlatformStand": "0x1d1",
+        "PlatformStatePointer": "0x9e179363",
+        "RequiresNeck": "0x1d2",
+        "RigType": "0x1b4",
+        "SeatPart": "0xf0",
+        "Sit": "0x1d2",
+        "TargetPoint": "0x140",
+        "UseJumpPower": "0x1d5",
+        "WalkTimer": "0x0",
+        "Walkspeed": "0x1c4",
+        "WalkspeedCheck": "0x39c"
     },
     "Instance": {
         "ChildrenEnd": "0x8",
-        "ChildrenStart": "0x78",
+        "ChildrenStart": "0x70",
         "ClassBase": "0x1b0",
         "ClassDescriptor": "0x18",
         "ClassName": "0x8",
-        "Name": "0x8",
-        "NameContainer": "0x70",
-        "Parent": "0x68",
+        "Name": "0x0",
+        "NameContainer": "0x68",
+        "Parent": "0x60",
         "This": "0x8"
     },
     "LRUHolder": {
@@ -230,33 +230,33 @@
         "Next": "0x0"
     },
     "Lighting": {
-        "Ambient": "0xc0",
-        "Brightness": "0x108",
-        "ClockTime": "0xb8",
-        "ColorShift_Bottom": "0xd8",
-        "ColorShift_Top": "0xcc",
-        "EnvironmentDiffuseScale": "0x10c",
-        "EnvironmentSpecularScale": "0x110",
-        "ExposureCompensation": "0x114",
-        "FogColor": "0xe4",
-        "FogEnd": "0x11c",
-        "FogStart": "0x120",
-        "GeographicLatitude": "0x124",
-        "GlobalShadows": "0x134",
-        "GradientBottom": "0x180",
-        "GradientTop": "0x140",
-        "LightColor": "0x14c",
-        "LightDirection": "0x158",
-        "MoonPosition": "0x174",
-        "OutdoorAmbient": "0xf0",
-        "Sky": "0x1b8",
-        "Source": "0x164",
-        "SunPosition": "0x168"
+        "Ambient": "0xb8",
+        "Brightness": "0x100",
+        "ClockTime": "0xb0",
+        "ColorShift_Bottom": "0xd0",
+        "ColorShift_Top": "0xc4",
+        "EnvironmentDiffuseScale": "0x104",
+        "EnvironmentSpecularScale": "0x108",
+        "ExposureCompensation": "0x10c",
+        "FogColor": "0xdc",
+        "FogEnd": "0x114",
+        "FogStart": "0x118",
+        "GeographicLatitude": "0x11c",
+        "GlobalShadows": "0x12c",
+        "GradientBottom": "0x178",
+        "GradientTop": "0x138",
+        "LightColor": "0x144",
+        "LightDirection": "0x150",
+        "MoonPosition": "0x16c",
+        "OutdoorAmbient": "0xe8",
+        "Sky": "0x1b0",
+        "Source": "0x15c",
+        "SunPosition": "0x160"
     },
     "LocalScript": {
         "ByteCode": "0x0",
-        "GUID": "0xc0",
-        "Hash": "0x190"
+        "GUID": "0xb8",
+        "Hash": "0x188"
     },
     "MaterialColors": {
         "Asphalt": "0x30",
@@ -285,73 +285,73 @@
         "Head": "0x8"
     },
     "MeshContentProvider": {
-        "LRUHolder": "0xc8"
+        "LRUHolder": "0xc0"
     },
     "MeshPart": {
-        "MeshId": "0x300",
-        "Texture": "0x330"
+        "MeshId": "0x2f8",
+        "Texture": "0x328"
     },
     "Misc": {
-        "Adornee": "0xe0",
-        "AnimationId": "0xb0",
+        "Adornee": "0xd8",
+        "AnimationId": "0xa8",
         "StringLength": "0x10",
-        "Value": "0xa8"
+        "Value": "0xa0"
     },
     "Model": {
-        "PrimaryPart": "0x248",
-        "Scale": "0x134"
+        "PrimaryPart": "0x240",
+        "Scale": "0x12c"
     },
     "ModuleScript": {
         "ByteCode": "0x0",
-        "GUID": "0xc0",
-        "Hash": "0x350",
+        "GUID": "0xb8",
+        "Hash": "0x348",
         "IsCoreScript": "0x0"
     },
     "MouseService": {
-        "InputObject": "0xe0",
-        "InputObject2": "0xf0",
-        "MousePosition": "0xc4",
+        "InputObject": "0xe8",
+        "InputObject2": "0xf8",
+        "MousePosition": "0xbc",
         "SensitivityPointer": "0x0"
     },
     "ParticleEmitter": {
-        "Acceleration": "0x1d0",
-        "Brightness": "0x20c",
-        "Drag": "0x210",
-        "Lifetime": "0x1e4",
-        "LightEmission": "0x228",
-        "LightInfluence": "0x22c",
-        "Rate": "0x238",
-        "RotSpeed": "0x1ec",
-        "Rotation": "0x1f4",
-        "Speed": "0x1fc",
-        "SpreadAngle": "0x204",
-        "Texture": "0x1b0",
-        "TimeScale": "0x24c",
-        "VelocityInheritance": "0x250",
-        "ZOffset": "0x254"
+        "Acceleration": "0x1c8",
+        "Brightness": "0x204",
+        "Drag": "0x208",
+        "Lifetime": "0x1dc",
+        "LightEmission": "0x220",
+        "LightInfluence": "0x224",
+        "Rate": "0x230",
+        "RotSpeed": "0x1e4",
+        "Rotation": "0x1ec",
+        "Speed": "0x1f4",
+        "SpreadAngle": "0x1fc",
+        "Texture": "0x1a8",
+        "TimeScale": "0x244",
+        "VelocityInheritance": "0x248",
+        "ZOffset": "0x24c"
     },
     "Player": {
-        "AccountAge": "0x35c",
-        "CameraMode": "0x370",
-        "DisplayName": "0x128",
-        "HealthDisplayDistance": "0x394",
-        "LocalPlayer": "0x120",
-        "LocaleId": "0x108",
-        "MaxZoomDistance": "0x368",
-        "MinZoomDistance": "0x36c",
-        "ModelInstance": "0x298",
-        "Mouse": "0x1218",
-        "NameDisplayDistance": "0x3a4",
-        "Team": "0x2d8",
-        "TeamColor": "0x3b0",
-        "UserId": "0xc0"
+        "AccountAge": "0x354",
+        "CameraMode": "0x368",
+        "DisplayName": "0x120",
+        "HealthDisplayDistance": "0x38c",
+        "LocalPlayer": "0x118",
+        "LocaleId": "0x100",
+        "MaxZoomDistance": "0x360",
+        "MinZoomDistance": "0x364",
+        "ModelInstance": "0x290",
+        "Mouse": "0x1210",
+        "NameDisplayDistance": "0x39c",
+        "Team": "0x2d0",
+        "TeamColor": "0x3a8",
+        "UserId": "0xb8"
     },
     "PlayerConfigurer": {
         "Pointer": "0x0"
     },
     "PlayerMouse": {
-        "Icon": "0xb8",
-        "Workspace": "0x140"
+        "Icon": "0xb0",
+        "Workspace": "0x138"
     },
     "Primitive": {
         "AssemblyAngularVelocity": "0xec",
@@ -371,14 +371,14 @@
         "CanTouch": "0x10"
     },
     "ProximityPrompt": {
-        "ActionText": "0xa0",
-        "Enabled": "0x126",
-        "GamepadKeyCode": "0x10c",
-        "HoldDuration": "0x110",
-        "KeyCode": "0x114",
-        "MaxActivationDistance": "0x118",
-        "ObjectText": "0xc0",
-        "RequiresLineOfSight": "0x127"
+        "ActionText": "0x98",
+        "Enabled": "0x11e",
+        "GamepadKeyCode": "0x104",
+        "HoldDuration": "0x108",
+        "KeyCode": "0x10c",
+        "MaxActivationDistance": "0x110",
+        "ObjectText": "0xb8",
+        "RequiresLineOfSight": "0x11f"
     },
     "RenderJob": {
         "FakeDataModel": "0x38",
@@ -392,149 +392,149 @@
         "VisualEngine": "0x0"
     },
     "RunService": {
-        "HeartbeatFPS": "0xc8",
-        "HeartbeatTask": "0xe0"
+        "HeartbeatFPS": "0xc0",
+        "HeartbeatTask": "0x8a08"
     },
     "Script": {
         "ByteCode": "0x0",
-        "GUID": "0xc0",
-        "Hash": "0x190"
+        "GUID": "0xb8",
+        "Hash": "0x188"
     },
     "ScriptContext": {
         "RequireBypass": "0x0"
     },
     "Seat": {
-        "Occupant": "0x208"
+        "Occupant": "0x200"
     },
     "Sky": {
-        "MoonAngularSize": "0x234",
-        "MoonTextureId": "0xb8",
-        "SkyboxBk": "0xe8",
-        "SkyboxDn": "0x118",
-        "SkyboxFt": "0x148",
-        "SkyboxLf": "0x178",
-        "SkyboxOrientation": "0x228",
-        "SkyboxRt": "0x1a8",
-        "SkyboxUp": "0x1d8",
-        "StarCount": "0x238",
-        "SunAngularSize": "0x22c",
-        "SunTextureId": "0x208"
+        "MoonAngularSize": "0x22c",
+        "MoonTextureId": "0xb0",
+        "SkyboxBk": "0xe0",
+        "SkyboxDn": "0x110",
+        "SkyboxFt": "0x140",
+        "SkyboxLf": "0x170",
+        "SkyboxOrientation": "0x220",
+        "SkyboxRt": "0x1a0",
+        "SkyboxUp": "0x1d0",
+        "StarCount": "0x230",
+        "SunAngularSize": "0x224",
+        "SunTextureId": "0x200"
     },
     "Sound": {
-        "IsPlaying": "0x130",
-        "Looped": "0x12d",
-        "PlaybackSpeed": "0x10c",
-        "RollOffMaxDistance": "0x110",
-        "RollOffMinDistance": "0x114",
-        "SoundGroup": "0xd8",
-        "SoundId": "0xb8",
-        "Volume": "0x120"
+        "IsPlaying": "0x128",
+        "Looped": "0x125",
+        "PlaybackSpeed": "0x104",
+        "RollOffMaxDistance": "0x108",
+        "RollOffMinDistance": "0x10c",
+        "SoundGroup": "0xd0",
+        "SoundId": "0xb0",
+        "Volume": "0x118"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x3d",
-        "Enabled": "0x1e1",
-        "ForcefieldDuration": "0x1d8",
-        "Neutral": "0x1e2",
-        "TeamColor": "0x1dc"
+        "AllowTeamChangeOnTouch": "0x1d8",
+        "Enabled": "0x1d9",
+        "ForcefieldDuration": "0x1d0",
+        "Neutral": "0x1da",
+        "TeamColor": "0x1d4"
     },
     "SpecialMesh": {
-        "MeshId": "0xe8",
-        "Scale": "0xb4"
+        "MeshId": "0xe0",
+        "Scale": "0xac"
     },
     "StatsItem": {
-        "Value": "0x500"
+        "Value": "0xccd2"
     },
     "SunRaysEffect": {
-        "Enabled": "0xa0",
-        "Intensity": "0xa8",
-        "Spread": "0xac"
+        "Enabled": "0x98",
+        "Intensity": "0xa0",
+        "Spread": "0xa4"
     },
     "SurfaceAppearance": {
-        "AlphaMode": "0x1e0",
-        "Color": "0x1c8",
-        "ColorMap": "0xb8",
-        "EmissiveMaskContent": "0xe8",
-        "EmissiveStrength": "0x1e4",
-        "EmissiveTint": "0x1d4",
-        "MetalnessMap": "0x118",
-        "NormalMap": "0x148",
-        "RoughnessMap": "0x178"
+        "AlphaMode": "0x1d8",
+        "Color": "0x1c0",
+        "ColorMap": "0xb0",
+        "EmissiveMaskContent": "0xe0",
+        "EmissiveStrength": "0x1dc",
+        "EmissiveTint": "0x1cc",
+        "MetalnessMap": "0x110",
+        "NormalMap": "0x140",
+        "RoughnessMap": "0x170"
     },
     "TaskScheduler": {
         "JobEnd": "0xd0",
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x8d71348"
+        "Pointer": "0x8f026a8"
     },
     "Team": {
-        "BrickColor": "0xa8"
+        "BrickColor": "0xa0"
     },
     "Terrain": {
-        "GrassLength": "0x1e0",
-        "MaterialColors": "0x4a8",
-        "WaterColor": "0x1d0",
-        "WaterReflectance": "0x1e8",
-        "WaterTransparency": "0x1ec",
-        "WaterWaveSize": "0x1f0",
-        "WaterWaveSpeed": "0x1f4"
+        "GrassLength": "0x1d8",
+        "MaterialColors": "0x4a0",
+        "WaterColor": "0x1c8",
+        "WaterReflectance": "0x1e0",
+        "WaterTransparency": "0x1e4",
+        "WaterWaveSize": "0x1e8",
+        "WaterWaveSpeed": "0x1ec"
     },
     "Textures": {
-        "Decal_Texture": "0x1d0",
-        "Texture_Texture": "0x1d0"
+        "Decal_Texture": "0x1c8",
+        "Texture_Texture": "0x1c8"
     },
     "Tool": {
-        "CanBeDropped": "0x4a8",
-        "Enabled": "0x4a9",
-        "Grip": "0x49c",
-        "ManualActivationOnly": "0x4aa",
-        "RequiresHandle": "0x4ab",
-        "TextureId": "0x350",
-        "Tooltip": "0x458"
+        "CanBeDropped": "0x4a0",
+        "Enabled": "0x4a1",
+        "Grip": "0x494",
+        "ManualActivationOnly": "0x4a2",
+        "RequiresHandle": "0x4a3",
+        "TextureId": "0x348",
+        "Tooltip": "0x450"
     },
     "UnionOperation": {
-        "AssetId": "0x300"
+        "AssetId": "0x2f8"
     },
     "UserInputService": {
-        "WindowInputState": "0x2b0"
+        "WindowInputState": "0x2a8"
     },
     "VehicleSeat": {
-        "MaxSpeed": "0x218",
-        "SteerFloat": "0x21c",
-        "ThrottleFloat": "0x220",
-        "Torque": "0x224",
-        "TurnSpeed": "0x228"
+        "MaxSpeed": "0x210",
+        "SteerFloat": "0x214",
+        "ThrottleFloat": "0x218",
+        "Torque": "0x21c",
+        "TurnSpeed": "0x220"
     },
     "VisualEngine": {
         "Dimensions": "0xb10",
         "FakeDataModel": "0xaf0",
-        "Pointer": "0x884c2e0",
-        "RenderView": "0xc38",
+        "Pointer": "0x89dc1a0",
+        "RenderView": "0xc40",
         "ViewMatrix": "0x1b0"
     },
     "Weld": {
-        "Part0": "0x108",
-        "Part1": "0x118"
+        "Part0": "0x100",
+        "Part1": "0x110"
     },
     "WeldConstraint": {
-        "Part0": "0xa8",
-        "Part1": "0xb8"
+        "Part0": "0xa0",
+        "Part1": "0xb0"
     },
     "WindowInputState": {
         "CapsLock": "0x40",
         "CurrentTextBox": "0x48"
     },
     "Workspace": {
-        "CurrentCamera": "0x4a8",
-        "DistributedGameTime": "0x4c8",
+        "CurrentCamera": "0x4a0",
+        "DistributedGameTime": "0x4c0",
         "ReadOnlyGravity": "0x9c8",
-        "World": "0x400"
+        "World": "0x3f8"
     },
     "World": {
         "AirProperties": "0x238",
         "FallenPartsDestroyHeight": "0x214",
         "Gravity": "0x220",
-        "Primitives": "0x2c8",
-        "worldStepsPerSec": "0x880"
+        "Primitives": "0x2a8",
+        "worldStepsPerSec": "0x860"
     }
 }
