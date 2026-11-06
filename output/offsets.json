@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-5a21b87bbc2641cf",
+    "ClientVersion": "version-f0ea5da9412f4e35",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -66,7 +66,7 @@
         "Size": "0x28"
     },
     "CachedItem": {
-        "FileMeshData": "0x40"
+        "FileMeshData": "0x28"
     },
     "Camera": {
         "CameraSubject": "0xb0",
@@ -138,7 +138,7 @@
         "Responsiveness": "0x288"
     },
     "FakeDataModel": {
-        "Pointer": "0x8d06600",
+        "Pointer": "0x8eb6960",
         "RealDataModel": "0x1f8"
     },
     "FileMeshData": {
@@ -163,7 +163,7 @@
         "Position": "0x4d8",
         "RichText": "0xba0",
         "Rotation": "0xd0",
-        "ScreenGui_Enabled": "0x48c",
+        "ScreenGui_Enabled": "0x490",
         "Size": "0x4f8",
         "Text": "0xe08",
         "TextColor3": "0xeb8",
@@ -173,7 +173,7 @@
     "Humanoid": {
         "AutoJumpEnabled": "0x1c8",
         "AutoRotate": "0x1c9",
-        "AutomaticScalingEnabled": "0x1ca",
+        "AutomaticScalingEnabled": "0x95",
         "BreakJointsOnDeath": "0x1cc",
         "CameraOffset": "0x110",
         "DisplayDistanceType": "0x174",
@@ -199,7 +199,7 @@
         "NameDisplayDistance": "0x1a4",
         "NameOcclusion": "0x1a8",
         "PlatformStand": "0x1d2",
-        "PlatformStatePointer": "0x146a17f1",
+        "PlatformStatePointer": "0x14a11cba",
         "RequiresNeck": "0x1d3",
         "RigType": "0x1b4",
         "SeatPart": "0xf0",
@@ -226,7 +226,7 @@
     },
     "LRUNode": {
         "AssetID": "0x10",
-        "CachedItem": "0x40",
+        "CachedItem": "0x38",
         "Next": "0x0"
     },
     "Lighting": {
@@ -392,8 +392,8 @@
         "VisualEngine": "0x0"
     },
     "RunService": {
-        "HeartbeatFPS": "0xf4",
-        "HeartbeatTask": "0x9668"
+        "HeartbeatFPS": "0xf2",
+        "HeartbeatTask": "0x14b80"
     },
     "Script": {
         "ByteCode": "0x0",
@@ -421,17 +421,17 @@
         "SunTextureId": "0x200"
     },
     "Sound": {
-        "IsPlaying": "0x128",
-        "Looped": "0x125",
-        "PlaybackSpeed": "0x104",
-        "RollOffMaxDistance": "0x108",
-        "RollOffMinDistance": "0x10c",
+        "IsPlaying": "0x130",
+        "Looped": "0x12d",
+        "PlaybackSpeed": "0x10c",
+        "RollOffMaxDistance": "0x110",
+        "RollOffMinDistance": "0x114",
         "SoundGroup": "0xd0",
         "SoundId": "0xb0",
-        "Volume": "0x118"
+        "Volume": "0x120"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x1d8",
+        "AllowTeamChangeOnTouch": "0x3d",
         "Enabled": "0x1d9",
         "ForcefieldDuration": "0x1d0",
         "Neutral": "0x1da",
@@ -442,7 +442,7 @@
         "Scale": "0xac"
     },
     "StatsItem": {
-        "Value": "0x1422a"
+        "Value": "0x30e0"
     },
     "SunRaysEffect": {
         "Enabled": "0x98",
@@ -465,7 +465,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x8c9d698"
+        "Pointer": "0x8e4d7b8"
     },
     "Team": {
         "BrickColor": "0xa0"
@@ -484,8 +484,8 @@
         "Texture_Texture": "0x1c8"
     },
     "Tool": {
-        "CanBeDropped": "0x4a0",
-        "Enabled": "0x4a1",
+        "CanBeDropped": "0x365",
+        "Enabled": "0x95",
         "Grip": "0x494",
         "ManualActivationOnly": "0x4a2",
         "RequiresHandle": "0x4a3",
@@ -508,8 +508,8 @@
     "VisualEngine": {
         "Dimensions": "0xb10",
         "FakeDataModel": "0xaf0",
-        "Pointer": "0x879a218",
-        "RenderView": "0xc40",
+        "Pointer": "0x8942e38",
+        "RenderView": "0xc50",
         "ViewMatrix": "0x1b0"
     },
     "Weld": {
@@ -527,7 +527,7 @@
     "Workspace": {
         "CurrentCamera": "0x4a0",
         "DistributedGameTime": "0x4c0",
-        "ReadOnlyGravity": "0x9c0",
+        "ReadOnlyGravity": "0x9d0",
         "World": "0x3f8"
     },
     "World": {
@@ -535,6 +535,6 @@
         "FallenPartsDestroyHeight": "0x20c",
         "Gravity": "0x218",
         "Primitives": "0x2a0",
-        "worldStepsPerSec": "0x858"
+        "worldStepsPerSec": "0x868"
     }
 }
