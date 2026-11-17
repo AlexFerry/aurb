@@ -1,5 +1,5 @@
 {
-    "ClientVersion": "version-4ea8e85481e34f46",
+    "ClientVersion": "version-2c6fd5e09aaf4cfa",
     "AirProperties": {
         "AirDensity": "0x18",
         "GlobalWind": "0x3c"
@@ -7,7 +7,7 @@
     "AnimationTrack": {
         "Animation": "0xa0",
         "Animator": "0xf8",
-        "IsPlaying": "0xa10",
+        "IsPlaying": "0xa40",
         "Looped": "0xcd",
         "Speed": "0xbc",
         "TimePosition": "0xc0"
@@ -93,10 +93,10 @@
         "Template": "0xe8"
     },
     "ColorCorrectionEffect": {
-        "Brightness": "0xac",
-        "Contrast": "0xb0",
+        "Brightness": "0xdc",
+        "Contrast": "0xe4",
         "Enabled": "0x98",
-        "TintColor": "0xa0"
+        "TintColor": "0xd0"
     },
     "ColorGradingEffect": {
         "Enabled": "0x98",
@@ -138,7 +138,7 @@
         "Responsiveness": "0x288"
     },
     "FakeDataModel": {
-        "Pointer": "0x8f8e968",
+        "Pointer": "0x8e16368",
         "RealDataModel": "0x1f8"
     },
     "FileMeshData": {
@@ -167,7 +167,7 @@
         "Size": "0x2c8",
         "Text": "0xa30",
         "TextColor3": "0xae0",
-        "Visible": "0x72d",
+        "Visible": "0x730",
         "ZIndex": "0x33c"
     },
     "HandleAdornment": {
@@ -187,10 +187,10 @@
         "HealthDisplayDistance": "0x17c",
         "HealthDisplayType": "0x180",
         "HipHeight": "0x188",
-        "HumanoidRootPart": "0x468",
-        "HumanoidState": "0x8b0",
+        "HumanoidRootPart": "0x460",
+        "HumanoidState": "0x8a8",
         "HumanoidStateID": "0x20",
-        "IsWalking": "0xa46",
+        "IsWalking": "0xa3e",
         "Jump": "0x1d4",
         "JumpHeight": "0x198",
         "JumpPower": "0x19c",
@@ -201,22 +201,22 @@
         "MoveToPoint": "0x158",
         "NameDisplayDistance": "0x1a8",
         "NameOcclusion": "0x1ac",
-        "PlatformStand": "0x1d6",
-        "PlatformStatePointer": "0x287ca376",
-        "RequiresNeck": "0x1d7",
+        "PlatformStand": "0x1d5",
+        "PlatformStatePointer": "0x146d26a1",
+        "RequiresNeck": "0x1d6",
         "RigType": "0x1b8",
         "SeatPart": "0xf0",
-        "Sit": "0x1d7",
+        "Sit": "0x1d6",
         "TargetPoint": "0x140",
-        "UseJumpPower": "0x1da",
-        "WalkTimer": "0x3f0",
+        "UseJumpPower": "0x1d9",
+        "WalkTimer": "0x0",
         "Walkspeed": "0x1c8",
-        "WalkspeedCheck": "0x3a4"
+        "WalkspeedCheck": "0x39c"
     },
     "Instance": {
         "ChildrenEnd": "0x8",
         "ChildrenStart": "0x70",
-        "ClassBase": "0x1b0",
+        "ClassBase": "0x1b8",
         "ClassDescriptor": "0x18",
         "ClassName": "0x8",
         "Name": "0x0",
@@ -249,19 +249,19 @@
         "FogEnd": "0x114",
         "FogStart": "0x118",
         "GeographicLatitude": "0x11c",
-        "GlobalShadows": "0x12c",
-        "GradientBottom": "0x178",
-        "GradientTop": "0x138",
-        "LightColor": "0x144",
-        "LightDirection": "0x150",
-        "MoonPosition": "0x16c",
+        "GlobalShadows": "0x132",
+        "GradientBottom": "0x180",
+        "GradientTop": "0x140",
+        "LightColor": "0x14c",
+        "LightDirection": "0x158",
+        "MoonPosition": "0x174",
         "OutdoorAmbient": "0xe8",
-        "Sky": "0x1b0",
-        "Source": "0x15c",
-        "SunPosition": "0x160"
+        "Sky": "0x1b8",
+        "Source": "0x164",
+        "SunPosition": "0x168"
     },
     "LocalScript": {
-        "ByteCode": "0x178",
+        "ByteCode": "0x0",
         "GUID": "0xb8",
         "Hash": "0x188"
     },
@@ -310,9 +310,9 @@
         "Scale": "0x12c"
     },
     "ModuleScript": {
-        "ByteCode": "0x120",
+        "ByteCode": "0x0",
         "GUID": "0xb8",
-        "Hash": "0x348",
+        "Hash": "0x0",
         "IsCoreScript": "0x0"
     },
     "MouseService": {
@@ -348,7 +348,7 @@
         "MaxZoomDistance": "0x370",
         "MinZoomDistance": "0x374",
         "ModelInstance": "0x2a0",
-        "Mouse": "0x11f0",
+        "Mouse": "0x1278",
         "NameDisplayDistance": "0x3b0",
         "Team": "0x2e0",
         "TeamColor": "0x3b8",
@@ -365,8 +365,8 @@
         "AssemblyAngularVelocity": "0xec",
         "AssemblyLinearVelocity": "0xe0",
         "Flags": "0x1be",
-        "Material": "0x24e",
-        "Owner": "0x218",
+        "Material": "0x256",
+        "Owner": "0x220",
         "Position": "0xd4",
         "Rotation": "0xb0",
         "Size": "0x1c4",
@@ -400,11 +400,11 @@
         "VisualEngine": "0x0"
     },
     "RunService": {
-        "HeartbeatFPS": "0xc8",
-        "HeartbeatTask": "0x27c8"
+        "HeartbeatFPS": "0xbe",
+        "HeartbeatTask": "0x28e38"
     },
     "Script": {
-        "ByteCode": "0x178",
+        "ByteCode": "0x0",
         "GUID": "0xb8",
         "Hash": "0x188"
     },
@@ -429,17 +429,17 @@
         "SunTextureId": "0x200"
     },
     "Sound": {
-        "IsPlaying": "0x130",
-        "Looped": "0x12d",
-        "PlaybackSpeed": "0x10c",
-        "RollOffMaxDistance": "0x110",
-        "RollOffMinDistance": "0x114",
+        "IsPlaying": "0x118",
+        "Looped": "0x115",
+        "PlaybackSpeed": "0xfc",
+        "RollOffMaxDistance": "0x100",
+        "RollOffMinDistance": "0x104",
         "SoundGroup": "0xd0",
         "SoundId": "0xb0",
-        "Volume": "0x120"
+        "Volume": "0x110"
     },
     "SpawnLocation": {
-        "AllowTeamChangeOnTouch": "0x3d",
+        "AllowTeamChangeOnTouch": "0x1d8",
         "Enabled": "0x1d9",
         "ForcefieldDuration": "0x1d0",
         "Neutral": "0x1da",
@@ -450,7 +450,7 @@
         "Scale": "0xac"
     },
     "StatsItem": {
-        "Value": "0xe758"
+        "Value": "0xb93d"
     },
     "SunRaysEffect": {
         "Enabled": "0x98",
@@ -473,7 +473,7 @@
         "JobName": "0x18",
         "JobStart": "0xc8",
         "MaxFPS": "0xb0",
-        "Pointer": "0x8f1e408"
+        "Pointer": "0x8da5d98"
     },
     "Team": {
         "BrickColor": "0xa0"
@@ -516,7 +516,7 @@
     "VisualEngine": {
         "Dimensions": "0xb10",
         "FakeDataModel": "0xaf0",
-        "Pointer": "0x8a11808",
+        "Pointer": "0x8896b98",
         "RenderView": "0xc50",
         "ViewMatrix": "0x1b0"
     },
